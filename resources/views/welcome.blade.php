@@ -22,33 +22,31 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="logo-manhom" src="{{ asset('asset/img/logo.png') }}" alt="logo ManHOM"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"  >
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                    <a class="nav-link nav-link_h active" aria-current="page" href="#">الرئيسية</a>
+                <ul class="navbar-nav py-2   my-lg-0  w-100">
+                    <li class="nav-item px-lg-2 py-lg-3">
+                    <a class="nav-link fw-bold fs-5 active" aria-current="page" href="#">الرئيسية</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link nav-link_h" href="#">إكتشف</a>
+                    <li class="nav-item px-lg-2 py-lg-3">
+                    <a class="nav-link fw-bold fs-5" href="#">إكتشف</a>
                     </li>
-                    <a class="nav-link nav-link_h" href="#">دليل الشركات</a>
+                    <li class="nav-item px-lg-2 py-lg-3">
+                    <a class="nav-link fw-bold fs-5" href="#">دليل الشركات</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link nav-link_h" href="#">التصنيفات</a>
+                    <li class="nav-item px-lg-2 py-lg-3">
+                    <a class="nav-link fw-bold fs-5" href="#">التصنيفات</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link nav-link_h" href="#">أخبار</a>
+                    <li class="nav-item px-lg-2 py-lg-3">
+                    <a class="nav-link fw-bold fs-5" href="#">أخبار</a>
                     </li>
-                    <li class="nav-item">
-                    <a class="nav-link nav-link_h" href="#">اقتصاديه</a>
+                    <li class="nav-item px-lg-2 py-lg-3">
+                    <a class="nav-link fw-bold fs-5" href="#">اقتصاديه</a>
                     </li>
-                </ul>
-                <form class="d-flex me-auto">
-                <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <li class="nav-item dropdown">
-                    <a class="nav-link nav-link_h dropdown-toggle country" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown me-lg-auto  py-lg-3">
+                    <a class="nav-link fw-bold fs-6 dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         الإمارات
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -58,15 +56,13 @@
                     </ul>
                     </a>
                     </li>
-                    <li class="nav-item p-3">
-                    <button class="btn btn-light" href="#">الدخول</button>
+                    <li class="nav-item py-lg-3 ">
+                    <button class="btn btn-light text-black-50 fw-bold " href="#">الدخول</button>
                     </li>
-                    <li class="nav-item p-3">
+                    <li class="nav-item py-lg-3">
                     <button class="btn btn-primary" href="#">إنشاء حساب</button>
                     </li>
-                    </ul>
-                    
-                </form>
+                </ul>
                 </div>
             </div>
             </nav>
@@ -74,7 +70,7 @@
             </section>
             <section class="Discover">
                 <div class="container text-center ">
-                <h1 class="display-5 fw-bold pt-4 pb-4"> إكتشف وتعرف <span class="text-primary position-relative">شخصيات بارزة</span>  </h1>
+                <h1 class="display-5 fw-bold py-4"> إكتشف وتعرف <span class="text-primary position-relative">شخصيات بارزة</span>  </h1>
                 <p class="fs-5 fw-bold text-black-50 pt-2">استكشف  وتعرف على شخصيات وشركات وثقافات مختلفه حول العالم العربي</p>
                 <div class="container">
                     <div class="row height d-flex justify-content-center align-items-center">
@@ -110,44 +106,266 @@
             </ul>
             </section>
             <section class="trend-search" style="direction: ltr;">
-            <div class="container text-center ">
-            <h1 class="fs-1 pt-4 pb-4">الاكثر بحثاً </h1>
-            <h1 class="display-4 fs-4 pt-4 pb-4 text-black-50 ">الشخصيات الأكثر بحثا ً ...  الاكثر تفاعلاً  .... الاكثر تأثيرا  ً </h1>
-            </div>
-            <slickcarousel></slickcarousel>
-            <carousel 
+                <div class="container text-center ">
+                <h1 class="fs-1 py-4">الاكثر بحثاً </h1>
+                <h1 class="display-4 fs-4 py-4 text-black-50 ">الشخصيات الأكثر بحثا ً ...  الاكثر تفاعلاً  .... الاكثر تأثيرا  ً </h1>
+                </div>
+                <div class="container">
+                <carousel 
+                :navigation-enabled="true"
+                navigation-next-label="<i class='fa-regular fa-circle-right fa-lg	text-primary'></i>"
+                navigation-prev-label="<i class='fa-regular fa-circle-left fa-lg	text-primary'></i>"
+                :auto-play-timeout="6000" :autoplay="true"  :loop="true" :pagination-enabled="false" :per-page-custom="[[768, 4], [1024, 5], [1124, 6]]">
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
+                        <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-2.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">سميح ساويرس</h5>
+                        <a href="#" class="stretched-link text-decoration-none">رجل أعمال مصري</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-3.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">محمد السلاب</h5>
+                        <a href="#" class="stretched-link text-decoration-none">رئيس مجموعة مصطفى السلاب</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-4.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">أيمن إسماعيل</h5>
+                        <a href="#" class="stretched-link text-decoration-none">الرئيس التنفيذي لشركة ماونتن فيو</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-5.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">ياسين منصور</h5>
+                        <a href="#" class="stretched-link text-decoration-none">ملياردير مصري</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-6.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">محمد صلاح</h5>
+                        <a href="#" class="stretched-link text-decoration-none">لاعب كرة قدم دولي مصري</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
+                        <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                    </div>
+                    </div>
+                    </slide>
+                    </carousel>
+                    </div>
+            </section>
+            <section class="top-ten">
+                <div class="container">
+                <div class="row pt-5 pb-5">
+                <div class="col-4 m-auto">
+                        <h2>أفضل 10 شخصيات مؤثرة في هذا الأسبوع</h2>
+                        <p>تم إختيار بعنايه افضل شخصيات مؤثره في هذا الأسبوع  وقدموا مثالاً مشرفا للشباب كي يقتدوا بهم</p>
+                        <button class="btn  btn-primary ">تصفح المزيد</button>
+                </div>
+
+                    <div class="col-8 m-auto">
+                    <carousel 
             :navigation-enabled="true"
-            navigation-next-label="<i class='fa-solid fa-arrow-trend-up'>keyboard_arrow_right</i>"
-            avigation-prev-label="<i class='fa-solid fa-arrow-trend-up'>keyboard_arrow_left</i>"
-            :auto-play-timeout="6000" :autoplay="true" :per-page=1 :loop="true" >
+            navigation-next-label="<i class='fa-regular fa-circle-right fa-lg	text-primary'></i>"
+            navigation-prev-label="<i class='fa-regular fa-circle-left fa-lg	text-primary'></i>"
+            :auto-play-timeout="6000" :autoplay="true"  :loop="true" :pagination-enabled="false" :per-page-custom="[[768, 4], [1024, 5], [1124, 6]]">
                 <slide >
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="logo ManHOM">
-                
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-2.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-3.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-4.png') }}" alt="logo ManHOM">
-   
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-5.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-6.png') }}" alt="logo ManHOM">
+                <div class="card " style="width:12rem;">
+                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="carousel">
+                <div class="card-body text-center">
+                    <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
+                    <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                </div>
+                </div>
                 </slide>
                 <slide >
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="logo ManHOM">
-                
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-2.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-3.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-4.png') }}" alt="logo ManHOM">
-   
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-5.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-6.png') }}" alt="logo ManHOM">
+                <div class="card " style="width:12rem;">
+                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-2.png') }}" alt="carousel">
+                <div class="card-body text-center">
+                    <h5 class="card-title  fw-bold">سميح ساويرس</h5>
+                    <a href="#" class="stretched-link text-decoration-none">رجل أعمال مصري</a>
+                </div>
+                </div>
+                </slide>
+                <slide >
+                <div class="card " style="width:12rem;">
+                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-3.png') }}" alt="carousel">
+                <div class="card-body text-center">
+                    <h5 class="card-title  fw-bold">محمد السلاب</h5>
+                    <a href="#" class="stretched-link text-decoration-none">رئيس مجموعة مصطفى السلاب</a>
+                </div>
+                </div>
                 </slide>
                 </carousel>
+                </div>
+                </div>
+                </div>
             </section>
+            <section class="characters-you-follow" style="direction: ltr;">
+                <div class="container text-center ">
+                <h1 class="fs-1 py-4"> إكتشف أفضل الشركات والمجموعات</h1>
+                <h1 class="display-4 fs-4 py-4 text-black-50 "> إستكشف أكثر الشركات انتشارا ً ... الشخصيات العاملة بها </h1>
+                </div>
+                <div class="container  text-center">
+                <div class="row">
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c1.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c2.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c3.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c4.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c5.png') }}" alt="carousel">
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col m-auto ">
+                    <img class="rounded mx-auto d-block" src="{{ asset('asset/img/c6.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c7.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c8.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c9.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c10.png') }}" alt="carousel">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c11.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c12.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c13.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c14.png') }}" alt="carousel">
+                    </div>
+                    <div class="col m-auto">
+                    <img class="rounded" src="{{ asset('asset/img/c15.png') }}" alt="carousel">
+                    </div>
+                </div>
+                </div>
+            </section>
+            <section class="best-company-groups" style="direction: ltr;">
+                <div class="container text-center ">
+                <h1 class="fs-1 py-4">شخصيات تتابعها</h1>
+                <h1 class="display-4 fs-4 py-4 text-black-50 ">الشخصيات الأكثر بحثا ً ...  الاكثر تفاعلاً  .... الاكثر تأثيرا  ً </h1>
+                </div>
+                <div class="container">
+                <carousel 
+                :navigation-enabled="true"
+                navigation-next-label="<i class='fa-regular fa-circle-right fa-lg	text-primary'></i>"
+                navigation-prev-label="<i class='fa-regular fa-circle-left fa-lg	text-primary'></i>"
+                :auto-play-timeout="6000" :autoplay="true"  :loop="true" :pagination-enabled="false" :per-page-custom="[[768, 4], [1024, 5], [1124, 6]]">
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
+                        <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-2.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">سميح ساويرس</h5>
+                        <a href="#" class="stretched-link text-decoration-none">رجل أعمال مصري</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-3.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">محمد السلاب</h5>
+                        <a href="#" class="stretched-link text-decoration-none">رئيس مجموعة مصطفى السلاب</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-4.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">أيمن إسماعيل</h5>
+                        <a href="#" class="stretched-link text-decoration-none">الرئيس التنفيذي لشركة ماونتن فيو</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-5.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">ياسين منصور</h5>
+                        <a href="#" class="stretched-link text-decoration-none">ملياردير مصري</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-6.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">محمد صلاح</h5>
+                        <a href="#" class="stretched-link text-decoration-none">لاعب كرة قدم دولي مصري</a>
+                    </div>
+                    </div>
+                    </slide>
+                    <slide >
+                    <div class="card " style="width:12rem;">
+                    <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="carousel">
+                    <div class="card-body text-center">
+                        <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
+                        <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                    </div>
+                    </div>
+                    </slide>
+                    </carousel>
+                    </div>
+            </section>
+        
             <section class="footer">
                     <nav class="navbar  navbar-light bg-light navbar_footer">
                         <h3 class="p-2">
@@ -210,70 +428,68 @@
                     <button class="btn btn-primary m-4" type="button">تصفح كل الأسئلة</button>
                         </h3>
                     <div class="container footerlink">
-                        
-                    <div class="nav-link " >
-                    <img class="logo-manhom m-3" src="{{ asset('asset/img/logo.png') }}" alt="logo ManHOM">
-                    <p class="text-black-50 text-md-end footer-info">  من هم؟"  هو أول قاعدة بيانات لمعلومات 
+                    <div class="row w-100">
+                        <div class="col-md-3">
+                        <img class="logo-manhom m-3" src="{{ asset('asset/img/logo.png') }}" alt="logo ManHOM">
+                        <p class="text-black-50 text-md-end footer-info">  من هم؟"  هو أول قاعدة بيانات لمعلومات 
                         الأشخاص والشركات العربية. أحد مواقع مجرة"</p>
                         <a class="nav-link fw-bold" href="#">تابعنا</a>
-                    </div>
-                    <div class="nav-link " >
-                    <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" ahref="#">حول من هم</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">عن من هم</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">أضف شخصية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">الشروط والأحكام</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">عن مجرة</a>
-                    </li>
-                    </ul>
-                    </div>
-                    <div class="nav-link " >
-                    <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">الخدمات والإشتراكات </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">عن البرنامج</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">إدارة الأشتراكات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">الشكاوي والملاحظات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">1</a>
-                    </li>
-                    </ul>
-                    </div>  
-                    <div class="nav-link " >
-                    <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">مواقع اخرى</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">هارفارد بيزنس ريفيو العربية</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">إم أي تي تكنولوجي ريفيو</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">بوبيولار سايتس - العلوم للعموم</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link ">ستانفورد للإبتكار الإجتماعي</a>
-                    </li>
-                    </ul>
-                    </div>
+                        </div>
+                        <div class="col-md-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" ahref="#">حول من هم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">عن من هم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">أضف شخصية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">الشروط والأحكام</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">عن مجرة</a>
+                        </li>
+                        </ul>
+                        </div>
+                        <div class="col-md-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">الخدمات والإشتراكات </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">عن البرنامج</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">إدارة الأشتراكات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">الشكاوي والملاحظات</a>
+                        </li>
+                        </ul>
+                        </div>
+                        <div class="col-md-3">
+                        <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold" href="#">مواقع اخرى</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">هارفارد بيزنس ريفيو العربية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">إم أي تي تكنولوجي ريفيو</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">بوبيولار سايتس - العلوم للعموم</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">ستانفورد للإبتكار الإجتماعي</a>
+                        </li>
+                        </ul>
+                        </div>
+                    </div>   
                     </div>
                     <div class="container-fluid">
                     <h6>
@@ -282,10 +498,6 @@
                     </div>
                     </nav>
             </section>
-            <h1>
-                <apps></apps>
-
-            </h1>
-            </div>
+        </div>
 </body>
 </html>

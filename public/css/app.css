@@ -21571,27 +21571,8 @@ body {
   max-width: 100px;
 }
 
-.nav-link_h {
-  font-family: "29LT Zarid Text";
-  font-style: normal;
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 47px;
-  font-weight: 700;
-}
-
 .active {
   color: #4169E3 !important;
-}
-
-.country {
-  font-size: 15px;
-  font-weight: 700;
-  padding: 11px;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  padding-left: 2rem;
 }
 
 .navbar_footer > .container-fluid, .navbar_footer > .container-sm, .navbar_footer > .container-md, .navbar_footer > .container-lg, .navbar_footer > .container-xl, .navbar_footer > .container-xxl {
@@ -21603,15 +21584,6 @@ body {
   justify-content: center;
   width: 100%;
   display: flex;
-}
-
-.footerlink .nav-link a, .footerlink .nav-link div {
-  color: #1d1919 !important;
-}
-
-.footer-info {
-  max-width: 262px;
-  color: #1d1919;
 }
 
 .Discover {
