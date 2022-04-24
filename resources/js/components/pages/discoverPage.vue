@@ -1,13 +1,16 @@
 <template>
     <div>
-        {{message}}
+{{message}}
     </div>
 </template>
 <script>
+
 export default {
+
     data() {
+        
         return {
-            message: 'Hello World'
+            message: 'Discover page'
         }
     }
 };

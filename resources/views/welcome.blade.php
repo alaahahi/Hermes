@@ -17,12 +17,7 @@
 <body>
         <div id="app">
           <headers></headers>
-          <discover></discover>
-          <trend></trend>
-          <trend-search></trend-search>
-          <top-ten></top-ten>
-          <company-you-follow></company-you-follow>
-          <best-company-groups></best-company-groups>
+          <router-view></router-view>
           <footers></footers>
         </div>
 </body>

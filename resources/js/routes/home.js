@@ -1,10 +1,16 @@
-const home = () =>import ( '../components/app.vue')
+const homePage = () =>import ( '../components/pages/homePage.vue')
+const discoverPage = () =>import ( '../components/pages/discoverPage.vue')
 
 export default [
     {
         path: '/home',
-        component: home,
+        component: homePage,
         name: 'home',
+    },
+    {
+        path: '/discover',
+        component: discoverPage,
+        name: 'discover',
     },
     
 ]
