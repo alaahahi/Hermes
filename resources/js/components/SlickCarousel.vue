@@ -1,17 +1,6 @@
 <template>
   <div>
 <VueSlickCarousel :arrows="true" :dots="true" v-bind="settings">
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-1.png') }}" alt="logo ManHOM">
-                
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-2.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-3.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-4.png') }}" alt="logo ManHOM">
-   
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-5.png') }}" alt="logo ManHOM">
-
-                <img class="rounded p-2" src="{{ asset('asset/img/Rectangle 13064-6.png') }}" alt="logo ManHOM">
 </VueSlickCarousel>
   </div>
 </template>

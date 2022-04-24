@@ -6,4 +6,5 @@ export default [
         component: home,
         name: 'home',
     },
+    
 ]

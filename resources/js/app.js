@@ -2,8 +2,11 @@ require('./bootstrap');
 require('../sass/app.scss')
 import Vue from 'vue'
 import apps from './components/app.vue'
+import headers from './components/header.vue'
+import discover from './components/discover.vue'
+import trend from './components/trend.vue'
+import trendSearch from './components/trendSearch.vue'
 import { Carousel, Slide } from 'vue-carousel';
-import slickcarousel from './components/slickcarousel'
 
 window.Vue = require('vue');
 
@@ -16,10 +19,14 @@ const app = new Vue({
     el: '#app',
     router,
     components: {
+        trendSearch,
+        headers,
+        discover,
+        trend,
+        Carousel,
+        Slide,
         apps,
         Carousel,
-    Slide,
-    slickcarousel
-
+        Slide,
       },
 }).$mount('#app');
