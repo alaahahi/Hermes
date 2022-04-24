@@ -6,7 +6,10 @@ import headers from './components/header.vue'
 import discover from './components/discover.vue'
 import trend from './components/trend.vue'
 import trendSearch from './components/trendSearch.vue'
-import { Carousel, Slide } from 'vue-carousel';
+import topTen from './components/topTen.vue'
+import bestCompanyGroups from './components/bestCompanyGroups.vue'
+import companyYouFollow from './components/companyYouFollow.vue'
+import footers from './components/footers.vue'
 
 window.Vue = require('vue');
 
@@ -19,14 +22,13 @@ const app = new Vue({
     el: '#app',
     router,
     components: {
-        trendSearch,
         headers,
         discover,
         trend,
-        Carousel,
-        Slide,
-        apps,
-        Carousel,
-        Slide,
+        bestCompanyGroups,
+        topTen,
+        companyYouFollow,
+        trendSearch,
+        footers
       },
 }).$mount('#app');
