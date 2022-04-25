@@ -26,6 +26,7 @@
     },
     "dependencies": {
         "vue-carousel": "^0.18.0",
+        "vue-carousel-3d": "^1.0.1",
         "vue-router": "^3.5.3",
         "vue-slick-carousel": "^1.0.6"
     }

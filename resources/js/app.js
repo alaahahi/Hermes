@@ -1,8 +1,8 @@
 require('./bootstrap');
 require('../sass/app.scss')
 import Vue from 'vue'
-import headers from './components/header.vue'
-import footers from './components/footers.vue'
+import headers from './components/home/header.vue'
+import footers from './components/home/footers.vue'
 
 window.Vue = require('vue');
 

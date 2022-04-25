@@ -10,7 +10,7 @@
                 <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav py-2   my-lg-0  w-100">
                     <li class="nav-item px-lg-2 py-lg-3">
-                    <router-link class="nav-link fw-bold fs-5 active" aria-current="page" to="/home">الرئيسية</router-link>
+                    <router-link class="nav-link fw-bold fs-5" to="/home">الرئيسية</router-link>
                     </li>
                     <li class="nav-item px-lg-2 py-lg-3">
                     <router-link class="nav-link fw-bold fs-5" to="/discover">إكتشف</router-link>

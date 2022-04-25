@@ -21571,7 +21571,7 @@ body {
   max-width: 100px;
 }
 
-.active {
+.router-link-active {
   color: #4169E3 !important;
 }
 
@@ -21587,7 +21587,6 @@ body {
 }
 
 .Discover {
-  min-height: 300px;
   position: relative;
 }
 .Discover span::after {
