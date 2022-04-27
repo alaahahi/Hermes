@@ -1889,7 +1889,7 @@ var staticRenderFns = [
     return _c("section", { staticClass: "trend" }, [
       _c("ul", { staticClass: "nav justify-content-center" }, [
         _c("li", { staticClass: "nav-item" }, [
-          _c("p", { staticClass: "fs-4 text-black-50 pt-1 m-2" }, [
+          _c("p", { staticClass: "fs-4 text-black-50 pb-4 pt-1 m-2" }, [
             _vm._v("الأكثر شيوعاً "),
           ]),
         ]),

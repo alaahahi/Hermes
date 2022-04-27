@@ -5612,6 +5612,10 @@ var homePage = function homePage() {
   return __webpack_require__.e(/*! import() */ "resources_js_components_pages_homePage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/homePage.vue */ "./resources/js/components/pages/homePage.vue"));
 };
 
+var companyPage = function companyPage() {
+  return __webpack_require__.e(/*! import() */ "resources_js_components_pages_companyPage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/companyPage.vue */ "./resources/js/components/pages/companyPage.vue"));
+};
+
 var discoverPage = function discoverPage() {
   return __webpack_require__.e(/*! import() */ "resources_js_components_pages_discoverPage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/discoverPage.vue */ "./resources/js/components/pages/discoverPage.vue"));
 };
@@ -5624,6 +5628,10 @@ var discoverPage = function discoverPage() {
   path: '/discover',
   component: discoverPage,
   name: 'discover'
+}, {
+  path: '/company',
+  component: companyPage,
+  name: 'company'
 }]);
 
 /***/ }),
@@ -28732,7 +28740,7 @@ var render = function () {
                             "router-link",
                             {
                               staticClass: "nav-link fw-bold fs-5",
-                              attrs: { to: "#" },
+                              attrs: { to: "/company" },
                             },
                             [_vm._v("دليل الشركات")]
                           ),
@@ -44384,7 +44392,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_pages_homePage_vue":1,"resources_js_components_pages_discoverPage_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_pages_homePage_vue":1,"resources_js_components_pages_companyPage_vue":1,"resources_js_components_pages_discoverPage_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

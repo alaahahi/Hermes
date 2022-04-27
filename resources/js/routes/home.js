@@ -1,4 +1,5 @@
 const homePage = () =>import ( '../components/pages/homePage.vue')
+const companyPage = () =>import ( '../components/pages/companyPage.vue')
 const discoverPage = () =>import ( '../components/pages/discoverPage.vue')
 
 export default [
@@ -12,5 +13,9 @@ export default [
         component: discoverPage,
         name: 'discover',
     },
-    
+    {
+        path: '/company',
+        component: companyPage,
+        name: 'company',
+    },
 ]

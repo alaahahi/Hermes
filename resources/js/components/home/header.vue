@@ -16,7 +16,7 @@
                     <router-link class="nav-link fw-bold fs-5" to="/discover">إكتشف</router-link>
                     </li>
                     <li class="nav-item px-lg-2 py-lg-3">
-                    <router-link class="nav-link fw-bold fs-5" to="#">دليل الشركات</router-link>
+                    <router-link class="nav-link fw-bold fs-5" to="/company">دليل الشركات</router-link>
                     </li>
                     <li class="nav-item px-lg-2 py-lg-3">
                     <router-link class="nav-link fw-bold fs-5" to="#">التصنيفات</router-link>
