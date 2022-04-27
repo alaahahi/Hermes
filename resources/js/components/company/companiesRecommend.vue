@@ -13,7 +13,7 @@
                              <div class="card-body text-center">
                                 <h5 class="card-title fs-6">{{bestCompany.title}}</h5>
                                 <p class="text-black-80 ">{{bestCompany.position}}</p>
-                                <a class="btn btn-outline-primary btn-sm">متابعة</a>
+                                <a class="btn btn-outline-primary btn-sm" href="/companyDetail">متابعة</a>
                             </div>
                             </div>
                     
