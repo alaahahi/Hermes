@@ -5624,6 +5624,10 @@ var companyDetailsPage = function companyDetailsPage() {
   return __webpack_require__.e(/*! import() */ "resources_js_components_pages_companyDetailsPage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/companyDetailsPage.vue */ "./resources/js/components/pages/companyDetailsPage.vue"));
 };
 
+var characterProfile = function characterProfile() {
+  return __webpack_require__.e(/*! import() */ "resources_js_components_pages_characterProfile_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/characterProfile.vue */ "./resources/js/components/pages/characterProfile.vue"));
+};
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{
   path: '/home',
   component: homePage,
@@ -5640,6 +5644,10 @@ var companyDetailsPage = function companyDetailsPage() {
   path: '/companyDetail',
   component: companyDetailsPage,
   name: 'companyDetail'
+}, {
+  path: '/characterProfile',
+  component: characterProfile,
+  name: 'characterProfile'
 }]);
 
 /***/ }),
@@ -44400,7 +44408,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_pages_homePage_vue":1,"resources_js_components_pages_companyPage_vue":1,"resources_js_components_pages_discoverPage_vue":1,"resources_js_components_pages_companyDetailsPage_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_pages_homePage_vue":1,"resources_js_components_pages_companyPage_vue":1,"resources_js_components_pages_discoverPage_vue":1,"resources_js_components_pages_companyDetailsPage_vue":1,"resources_js_components_pages_characterProfile_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

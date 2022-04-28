@@ -15,7 +15,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-1.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
-                        <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
                     </div>
                     </div>
                     </slide>
@@ -24,7 +24,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-2.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">سميح ساويرس</h5>
-                        <a href="#" class="stretched-link text-decoration-none">رجل أعمال مصري</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">رجل أعمال مصري</a>
                     </div>
                     </div>
                     </slide>
@@ -33,7 +33,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-3.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">محمد السلاب</h5>
-                        <a href="#" class="stretched-link text-decoration-none">رئيس مجموعة مصطفى السلاب</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">رئيس مجموعة مصطفى السلاب</a>
                     </div>
                     </div>
                     </slide>
@@ -42,7 +42,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-4.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">أيمن إسماعيل</h5>
-                        <a href="#" class="stretched-link text-decoration-none">الرئيس التنفيذي لشركة ماونتن فيو</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">الرئيس التنفيذي لشركة ماونتن فيو</a>
                     </div>
                     </div>
                     </slide>
@@ -51,7 +51,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-5.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">ياسين منصور</h5>
-                        <a href="#" class="stretched-link text-decoration-none">ملياردير مصري</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">ملياردير مصري</a>
                     </div>
                     </div>
                     </slide>
@@ -60,7 +60,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-6.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">محمد صلاح</h5>
-                        <a href="#" class="stretched-link text-decoration-none">لاعب كرة قدم دولي مصري</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">لاعب كرة قدم دولي مصري</a>
                     </div>
                     </div>
                     </slide>
@@ -69,7 +69,7 @@
                     <img class="rounded p-2" src="asset/img/Rectangle 13064-1.png" alt="carousel">
                     <div class="card-body text-center">
                         <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
-                        <a href="#" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
+                        <a href="/characterProfile" class="stretched-link text-decoration-none">داعية ومفكر اسلامي</a>
                     </div>
                     </div>
                     </slide>

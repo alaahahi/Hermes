@@ -1,20 +1,18 @@
 <template>
-  <div>
-    <discover/>
-    <trend/>
-    <best-company-last-month/>
-    <companiesRecommend/>
-    <companySubscription/>
-    <mostSearchedCompanies/>
-    <newCompany/>
+  <div class="bg-white">
+    <companyDetailsNav/>
+    <companyInfo/>
   </div>
 </template>
 <script>
+import companyDetailsNav from '../companyDetails/companyDetailsNav.vue'
+import companyInfo from '../companyDetails/companyInfo.vue'
 
 export default {
   components: 
         {
-
+        companyDetailsNav,
+        companyInfo
         },
     data() {
         

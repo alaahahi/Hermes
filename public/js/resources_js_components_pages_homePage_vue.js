@@ -1196,7 +1196,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("داعية ومفكر اسلامي")]
                       ),
@@ -1227,7 +1227,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("رجل أعمال مصري")]
                       ),
@@ -1258,7 +1258,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("رئيس مجموعة مصطفى السلاب")]
                       ),
@@ -1289,7 +1289,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("الرئيس التنفيذي لشركة ماونتن فيو")]
                       ),
@@ -1320,7 +1320,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("ملياردير مصري")]
                       ),
@@ -1351,7 +1351,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("لاعب كرة قدم دولي مصري")]
                       ),
@@ -1382,7 +1382,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("داعية ومفكر اسلامي")]
                       ),
@@ -2070,7 +2070,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("داعية ومفكر اسلامي")]
                       ),
@@ -2101,7 +2101,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("رجل أعمال مصري")]
                       ),
@@ -2132,7 +2132,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("رئيس مجموعة مصطفى السلاب")]
                       ),
@@ -2163,7 +2163,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("الرئيس التنفيذي لشركة ماونتن فيو")]
                       ),
@@ -2194,7 +2194,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("ملياردير مصري")]
                       ),
@@ -2225,7 +2225,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("لاعب كرة قدم دولي مصري")]
                       ),
@@ -2256,7 +2256,7 @@ var render = function () {
                         "a",
                         {
                           staticClass: "stretched-link text-decoration-none",
-                          attrs: { href: "#" },
+                          attrs: { href: "/characterProfile" },
                         },
                         [_vm._v("داعية ومفكر اسلامي")]
                       ),
