@@ -5,7 +5,7 @@
         <div class="col-md-8">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="rounded w-75" src="asset/img/Rectangle 13064-3.png" alt="carousel">
+                    <img class="rounded w-75" src="asset/img/characterProfile/p.png" alt="carousel">
                 </div>
                 <div class="col-md-8">
                     <div class="d-flex justify-content-between align-items-center">
@@ -27,56 +27,155 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 mt-4">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    معلومات المؤسسة
+                    <button class="accordion-button collapsed fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    السيرة الذاتيه لبدر جعفر في العمل والتعليم
                     </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseOne" class="accordion-collapse collaps show bg-white" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <h3>الحياه المبكره والتعليم</h3>
-                        <p>
-                            ولد بدر جعفر ونشأ في الشارقة، بالإمارات. في عام 1994، واصل تعليمه في كلية إيتون، وتخرج في عام 1999 من جامعة كامبريدج بدرجة الماجستير في الهندسة ودراسات إضافية في الفيزياء الفلكية. في عام 1996، منحت جامعة هارفارد جعفر جائزة هارفارد للكتاب المقدمة للطلاب الذين «أظهروا التميز في المنح الدراسية والشخصية الرفيعة، بالإضافة إلى الإنجازات في المجالات الأخرى». التحق جعفر بعد ذلك بكلية كامبردج جادج للأعمال في جامعة كامبريدج. يعمل جعفر عضوا في المجالس الاستشارية لكلية إدارة الأعمال بجامعة كامبريدج، والجامعة الأمريكية في بيروت، والجامعة الأمريكية في الشارقة. وهو زميل مؤسسي معين في كلية إيتون.
-                        </p>
-                        <h3> ريادة الأعمال </h3>
-                        <p>
-                            بدر جعفر هو رئيس مجلس إدارة إنديفور، وهو عضو في مجلس المستشارين لمركز الشارقة لريادة الأعمال (شراع) وغزة سكاي جيكس، وهي شركة رائدة في تسريع الشركات الناشئة ومركز التعليم التكنولوجي في غزة. في عام 2014، أطلق جعفر برنامج ريادة الأعمال الاجتماعية في العالم العربي بالشراكة مع أشوكا (Ashoka)، وهي منظمة ريادة اجتماعية، لتحديد ومساعدة الشركات الاجتماعية الواعدة في المنطقة. 
-                        </p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>السيرة الذاتية لبدر جعفر</h5>
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc1.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc2.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc3.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>التعليم</h5>
+
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc2.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc2.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="card m-auto my-2 text-end  ">
+                                    <div class="row">
+                                    <div class="col-md-3 g-0 d-flex align-items-center">
+                                        <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc2.png">
+                                    </div>
+                                    <div class="col-md-9 g-0">
+                                    <div class="card-body">
+                                    <h6 class="card-title">الرئيس التنفيذي</h6>
+                                    <a href="#" class="text-decoration-none ">مجموعة الهلال  
+                                    </a>
+                                    <p class="text-muted pt-2">أغسطس 2020 - حتى الأن 1 عام و3 أشهر</p>
+                                    </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    المبادرات الاجتماعية 
-                    </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-
-                    </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    معلومات المؤسسة
-                    </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"></div>
                     </div>
                 </div>
                 </div>
                 </div>
             </div>
             <div class="row">
+               <h4 class="text-center py-3"> <a class="btn btn-outline-primary w-40 mx-2">عرض المزيد من التجارب</a></h4>
+                <h5 class="fw-bold my-4">الحياه المبكره والتعليم</h5>
+                <p class="text-muted fs-5">
+                    ولد بدر جعفر ونشأ في الشارقة، بالإمارات. في عام 1994، واصل تعليمه في كلية إيتون، وتخرج في عام 1999 من جامعة كامبريدج بدرجة الماجستير في الهندسة ودراسات إضافية في الفيزياء الفلكية. في عام 1996، منحت جامعة هارفارد جعفر جائزة هارفارد للكتاب المقدمة للطلاب الذين «أظهروا التميز في المنح الدراسية والشخصية الرفيعة، بالإضافة إلى الإنجازات في المجالات الأخرى». التحق جعفر بعد ذلك بكلية كامبردج جادج للأعمال في جامعة كامبريدج. يعمل جعفر عضوا في المجالس الاستشارية لكلية إدارة الأعمال بجامعة كامبريدج، والجامعة الأمريكية في بيروت، والجامعة الأمريكية في الشارقة. وهو زميل مؤسسي معين في كلية إيتون.
+                </p>
+                <h5 class="fw-bold my-4">ريادة الأعمال </h5>
+                <p class="text-muted fs-5">
+بدر جعفر هو رئيس مجلس إدارة إنديفور، وهو عضو في مجلس المستشارين لمركز الشارقة لريادة الأعمال (شراع) وغزة سكاي جيكس، وهي شركة رائدة في تسريع الشركات الناشئة ومركز التعليم التكنولوجي في غزة. في عام 2014، أطلق جعفر برنامج ريادة الأعمال الاجتماعية في العالم العربي بالشراكة مع أشوكا (Ashoka)، وهي منظمة ريادة اجتماعية، لتحديد ومساعدة الشركات الاجتماعية الواعدة في المنطقة.                 </p>
+            </div>
+            <div class="row">
             <div class="col-12 ">
             <div class="d-flex justify-content-between align-items-center">
-            <h5 class="fw-bold my-4">شخصيات وشركات ذات صلة</h5>
+            <h5 class="fw-bold my-4">أقرباء بدر جعفر</h5>
             <a class="btn btn btn-outline-primary fs-6 fw-bold">عرض المزيد</a>
             </div>
                     <carousel 
@@ -86,37 +185,19 @@
             :auto-play-timeout="6000" :autoplay="true"  :loop="true" :pagination-enabled="false" :per-page-custom="[[768, 4], [1024, 5], [1124, 6]]">
                 <slide >
                 <div class="card " style="width:12rem;">
-                <img class="rounded p-2" src="asset/img/Rectangle 13064-1.png" alt="carousel">
+                <img class="rounded p-2" src="asset/img/characterProfile/s0.png" alt="carousel">
                 <div class="card-body text-center">
-                    <h5 class="card-title  fw-bold">أحمد عمر هاشم</h5>
+                    <h5 class="card-title  fw-bold">حميد جعفر</h5>
                     <a href="#" class="stretched-link text-decoration-none">أب</a>
                 </div>
                 </div>
                 </slide>
                 <slide >
                 <div class="card " style="width:12rem;">
-                <img class="rounded p-2" src="asset/img/Rectangle 13064-2.png" alt="carousel">
+                <img class="rounded p-2" src="asset/img/characterProfile/s.png" alt="carousel">
                 <div class="card-body text-center">
-                    <h5 class="card-title  fw-bold">سميح ساويرس</h5>
-                    <a href="#" class="stretched-link text-decoration-none">أخ</a>
-                </div>
-                </div>
-                </slide>
-                <slide >
-                <div class="card " style="width:12rem;">
-                <img class="rounded p-2" src="asset/img/Rectangle 13064-3.png" alt="carousel">
-                <div class="card-body text-center">
-                    <h5 class="card-title  fw-bold">محمد السلاب</h5>
-                    <a href="#" class="stretched-link text-decoration-none">عم</a>
-                </div>
-                </div>
-                </slide>
-                           <slide >
-                <div class="card " style="width:12rem;">
-                <img class="rounded p-2" src="asset/img/Rectangle 13064-4.png" alt="carousel">
-                <div class="card-body text-center">
-                    <h5 class="card-title  fw-bold">محمد السلاب</h5>
-                    <a href="#" class="stretched-link text-decoration-none">أب</a>
+                    <h5 class="card-title  fw-bold">رزان خليفة المبارك</h5>
+                    <a href="#" class="stretched-link text-decoration-none">أخت</a>
                 </div>
                 </div>
                 </slide>
@@ -127,6 +208,28 @@
                 <div class="col-12 m-auto d-flex justify-content-between align-items-center">
                     <h5 class="fw-bold my-4">أخر فيديوهات اليوتيوب</h5>
                     <a class="btn btn-outline-primary fs-6 fw-bold">عرض المزيد</a>
+                </div>
+            </div>
+
+            <div class="row">
+            <div class="d-flex justify-content-between align-items-center">
+            <h5 class="fw-bold my-4">مناصب بدر جعفر</h5>
+            <a class="btn btn btn-outline-primary fs-6 fw-bold">عرض المزيد</a>
+            </div>
+              <div class="container ">
+                    <div  class="row d-flex justify-content-around">
+                        <div v-for="(bestCompany, i) in bestCompanyLastMonth" :index="i" :key="i" class="col-md-2 col-sm-4 col-xs-2">
+                            <div class="card h-100 bg-transparent border-card-company">
+                            <div  class="bs-img-size d-flex align-items-center justify-content-center">
+                            <img class="rounded card-img-top p-3" :src="bestCompany.src">
+                            </div>
+                            <div class="card-body text-end">
+                                <h5 class="card-title fs-6">{{bestCompany.title}}</h5>
+                                <p class="card-text text-warning">{{bestCompany.position}}</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -148,7 +251,7 @@
         <div class="col-md-4 ">
                     <div class="card w-75 p-3 m-auto my-3 shadow-sm">
                         <h5>السيرة الذاتية لبدر جعفر</h5>
-                         <img class="rounded w-75" src="asset/img/Rectangle 13064-3.png" alt="carousel">
+                         <img class="rounded py-3" src="asset/img/characterProfile/v.png" alt="carousel">
                         <a class="btn btn-primary w-100 mb-2">شارك الصفحة</a>
                         <a class="btn btn-outline-primary w-100 ">أبلغني بالتحديثات</a>
                     </div>
@@ -166,68 +269,68 @@
                     </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="fw-bold">تعرف أيضا</h3>
-                        <p>أشخاص من نفس المؤسسه</p>
-                        <div class="card w-75  m-auto my-4 text-center shadow ">
+                        <h5 class="fw-bold">أشخاص ذات صله</h5>
+                        <p class="text-muted">شخصيات من محرري من هم</p>
+                        <div class="card w-75  m-auto my-4 text-end shadow ">
                             <div class="row">
                             <div class="col-md-5 g-0 d-flex align-items-center">
-                                <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc.png">
+                                <img class="img-fluid rounded-end p-3" src="asset/img/Rectangle 13064-3.png">
                             </div>
                              <div class="col-md-7 g-0">
                             <div class="card-body">
-                            <h5 class="card-title">شركة سبارك </h5>
-                            <h6 class="text-muted py-1">الإمارات العربية المتحدة
+                            <h5 class="card-title  pt-3">محمد السلاب</h5>
+                            <h6 class="text-warning  py-1 fs-6"> مجموعة مصطفى السلاب
                             </h6>
-                            <a class="btn btn-primary btn-sm"> تفاصيل الشركة</a>
+                            <a class="btn btn-primary btn-sm">الملف الشخصي</a>
                             </div>
                              </div>
                              </div>
                         </div>
-                       <div class="card w-75  m-auto my-4 text-center shadow">
+                    <div class="card w-75  m-auto my-4 text-end shadow ">
                             <div class="row">
                             <div class="col-md-5 g-0 d-flex align-items-center">
-                                <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc3.png">
+                                <img class="img-fluid rounded-end p-3" src="asset/img/Rectangle 13064-6.png">
                             </div>
                              <div class="col-md-7 g-0">
                             <div class="card-body">
-                            <h5 class="card-title">شركة سبارك </h5>
-                            <h6 class="text-muted py-1">الإمارات العربية المتحدة
+                            <h5 class="card-title pt-3"> محمد صلاح</h5>
+                            <h6 class="text-warning  py-1 fs-6"> لاعب كرة  
                             </h6>
-                            <a class="btn btn-primary btn-sm"> تفاصيل الشركة</a>
+                            <a class="btn btn-primary btn-sm">الملف الشخصي</a>
                             </div>
                              </div>
                              </div>
-                    </div>
-                       <div class="card w-75  m-auto my-4 text-center shadow">
+                        </div>
+            <div class="card w-75  m-auto my-4 text-end shadow ">
                             <div class="row">
                             <div class="col-md-5 g-0 d-flex align-items-center">
-                                <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc1.png">
+                                <img class="img-fluid rounded-end p-3" src="asset/img/Rectangle 13064-5.png">
                             </div>
                              <div class="col-md-7 g-0">
                             <div class="card-body">
-                            <h5 class="card-title">شركة سبارك </h5>
-                            <h6 class="text-muted py-1">الإمارات العربية المتحدة
+                            <h5 class="card-title  pt-3">محمد السلاب</h5>
+                            <h6 class="text-warning  py-1 fs-6"> مجموعة مصطفى السلاب
                             </h6>
-                            <a class="btn btn-primary btn-sm"> تفاصيل الشركة</a>
+                            <a class="btn btn-primary btn-sm">الملف الشخصي</a>
                             </div>
                              </div>
                              </div>
-                    </div>
-                       <div class="card w-75  m-auto my-4 text-center shadow">
+                        </div>
+          <div class="card w-75  m-auto my-4 text-end shadow ">
                             <div class="row">
                             <div class="col-md-5 g-0 d-flex align-items-center">
-                                <img class="img-fluid rounded-end p-3" src="asset/img/companyPage/bc2.png">
+                                <img class="img-fluid rounded-end p-3" src="asset/img/Rectangle 13064-4.png">
                             </div>
                              <div class="col-md-7 g-0">
                             <div class="card-body">
-                            <h5 class="card-title">شركة سبارك </h5>
-                            <h6 class="text-muted py-1">الإمارات العربية المتحدة
+                            <h5 class="card-title  pt-3">محمد السلاب</h5>
+                            <h6 class="text-warning  py-1 fs-6"> مجموعة مصطفى السلاب
                             </h6>
-                            <a class="btn btn-primary btn-sm"> تفاصيل الشركة</a>
+                            <a class="btn btn-primary btn-sm">الملف الشخصي</a>
                             </div>
                              </div>
                              </div>
-                    </div>
+                        </div>
                 </div>
                 </div>
                     <div class="row">
@@ -312,15 +415,42 @@ export default {
       },
 data(){
     return{
-
+            bestCompanyLastMonth:[
+                            {
+                            title:"شركة بيرل بتروليوم",
+                            position:"رئيس مجلس إداره",
+                            src:"asset/img/companyPage/bc.png"
+                            },
+                            {
+                            title:"شركة غزه سكاي جيكس",
+                            position:"عضو المجلس الإستشاري",
+                            src:"asset/img/companyPage/bc1.png"
+                            },
+                            {
+                            title:"مجموعة الهلال",
+                            position:"الرئيس التنيفذي",
+                            src:"asset/img/companyPage/bc2.png"
+                            },
+                            {
+                            title:"مركز الشارقه لريادة الأعمال",
+                            position:"مركز الشارقه لريادة الأعمال",
+                            src:"asset/img/companyPage/bc3.png"
+                            },
+                            {
+                            title:"برق الإماراتيه",
+                            position:"عضو المجلس الإستشاري الدولي",
+                            src:"asset/img/companyPage/bc4.png"
+                            },
+                            ]
     }
 }
 }
 </script>
 
-<style>
+<style  scoped>
 .card {
-    border-radius: 20px;
+    border: none;
 }
+</style>>
 
-</style>
+

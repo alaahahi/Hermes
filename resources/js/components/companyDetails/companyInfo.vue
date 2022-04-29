@@ -40,7 +40,7 @@
                     معلومات المؤسسة
                     </button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="flush-collapseOne" class="accordion-collapse collapse show bg-white" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <h3>الحياه المبكره والتعليم</h3>
                         <p>
@@ -169,7 +169,7 @@
                     </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="fw-bold">تعرف أيضا</h3>
+                        <h5 class="fw-bold">تعرف أيضا</h5>
                         <p>أشخاص من نفس المؤسسه</p>
                         <div class="card w-75  m-auto my-4 text-center shadow ">
                             <div class="row">
@@ -321,7 +321,7 @@ data(){
 }
 </script>
 
-<style>
+<style scoped>
 .card {
     border-radius: 20px;
 }

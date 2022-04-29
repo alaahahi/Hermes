@@ -12,13 +12,13 @@
     </div>
 </template>
 <script>
-import discover from '../discover.vue'
+import discover from '../home/discover.vue'
 import discoverTitle from '../discover/discoverTitle.vue'
 import trend from '../home/trend.vue'
-import trendSearch from '../trendSearch.vue'
+import trendSearch from '../home/trendSearch.vue'
 import topTen from '../home/topTen.vue'
-import bestCompanyGroups from '../bestCompanyGroups.vue'
-import companyYouFollow from '../companyYouFollow.vue'
+import bestCompanyGroups from '../home/bestCompanyGroups.vue'
+import companyYouFollow from '../home/companyYouFollow.vue'
 export default {
          components: 
         {

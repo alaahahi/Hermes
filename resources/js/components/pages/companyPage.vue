@@ -15,7 +15,7 @@ import companiesRecommend from '../company/companiesRecommend.vue'
 import mostSearchedCompanies from '../company/mostSearchedCompanies.vue'
 import companySubscription from '../company/companySubscription.vue'
 import newCompany from '../company/newCompany.vue'
-import discover from '../discover.vue'
+import discover from '../home/discover.vue'
 import trend from '../home/trend.vue'
 export default {
   components: 

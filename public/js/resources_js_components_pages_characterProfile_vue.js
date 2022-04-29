@@ -365,6 +365,109 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
@@ -372,7 +475,29 @@ __webpack_require__.r(__webpack_exports__);
     Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__.Slide
   },
   data: function data() {
-    return {};
+    return {
+      bestCompanyLastMonth: [{
+        title: "شركة بيرل بتروليوم",
+        position: "رئيس مجلس إداره",
+        src: "asset/img/companyPage/bc.png"
+      }, {
+        title: "شركة غزه سكاي جيكس",
+        position: "عضو المجلس الإستشاري",
+        src: "asset/img/companyPage/bc1.png"
+      }, {
+        title: "مجموعة الهلال",
+        position: "الرئيس التنيفذي",
+        src: "asset/img/companyPage/bc2.png"
+      }, {
+        title: "مركز الشارقه لريادة الأعمال",
+        position: "مركز الشارقه لريادة الأعمال",
+        src: "asset/img/companyPage/bc3.png"
+      }, {
+        title: "برق الإماراتيه",
+        position: "عضو المجلس الإستشاري الدولي",
+        src: "asset/img/companyPage/bc4.png"
+      }]
+    };
   }
 });
 
@@ -430,17 +555,17 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.btn-outline-primary{\r\nborder-radius: 20px;\n}\n.bg-pink {\r\n    background-color: #ffb2bd14;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.bg-pink {\r\n    background-color: #ffb2bd14;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -454,7 +579,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.card {\r\n    border-radius: 20px;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.card[data-v-63072b4c] {\r\n    border: none;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -567,10 +692,10 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -580,7 +705,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./characterInfo.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_id_63072b4c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css&");
 
             
 
@@ -589,11 +714,11 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_id_63072b4c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_id_63072b4c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 
@@ -943,9 +1068,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _characterInfo_vue_vue_type_template_id_63072b4c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./characterInfo.vue?vue&type=template&id=63072b4c& */ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&");
+/* harmony import */ var _characterInfo_vue_vue_type_template_id_63072b4c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./characterInfo.vue?vue&type=template&id=63072b4c&scoped=true& */ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&scoped=true&");
 /* harmony import */ var _characterInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./characterInfo.vue?vue&type=script&lang=js& */ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=script&lang=js&");
-/* harmony import */ var _characterInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./characterInfo.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _characterInfo_vue_vue_type_style_index_0_id_63072b4c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css& */ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -957,11 +1082,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _characterInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _characterInfo_vue_vue_type_template_id_63072b4c___WEBPACK_IMPORTED_MODULE_0__.render,
-  _characterInfo_vue_vue_type_template_id_63072b4c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _characterInfo_vue_vue_type_template_id_63072b4c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _characterInfo_vue_vue_type_template_id_63072b4c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
-  null,
+  "63072b4c",
   null
   
 )
@@ -1073,15 +1198,15 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css&":
-/*!*****************************************************************************************************!*\
-  !*** ./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css& ***!
-  \*****************************************************************************************************/
+/***/ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css&":
+/*!*****************************************************************************************************************************!*\
+  !*** ./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css& ***!
+  \*****************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./characterInfo.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_style_index_0_id_63072b4c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=style&index=0&id=63072b4c&scoped=true&lang=css&");
 
 
 /***/ }),
@@ -1103,19 +1228,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&":
-/*!***************************************************************************************************!*\
-  !*** ./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c& ***!
-  \***************************************************************************************************/
+/***/ "./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&scoped=true&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&scoped=true& ***!
+  \***************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_template_id_63072b4c___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_template_id_63072b4c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_template_id_63072b4c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_template_id_63072b4c_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_template_id_63072b4c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./characterInfo.vue?vue&type=template&id=63072b4c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_characterInfo_vue_vue_type_template_id_63072b4c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./characterInfo.vue?vue&type=template&id=63072b4c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&scoped=true&");
 
 
 /***/ }),
@@ -1201,13 +1326,20 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("form", { staticClass: "d-flex" }, [
-            _c("a", { staticClass: "btn btn-defult" }, [_vm._v("أضف شخصية")]),
+            _c(
+              "button",
+              {
+                staticClass: "btn btn-outline-primary w-75",
+                attrs: { type: "submit" },
+              },
+              [_vm._v("أضف شخصية")]
+            ),
             _vm._v(" "),
             _c("input", {
               staticClass: "form-control me-2",
               attrs: {
                 type: "search",
-                placeholder: "اكتب ما تريد البحث عنه",
+                placeholder: "Search",
                 "aria-label": "Search",
               },
             }),
@@ -1223,10 +1355,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&":
-/*!******************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c& ***!
-  \******************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&scoped=true&":
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/characterDetails/characterInfo.vue?vue&type=template&id=63072b4c&scoped=true& ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -1247,12 +1379,14 @@ var render = function () {
           _vm._v(" "),
           _vm._m(1),
           _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
           _c("div", { staticClass: "row" }, [
             _c(
               "div",
               { staticClass: "col-12 " },
               [
-                _vm._m(2),
+                _vm._m(3),
                 _vm._v(" "),
                 _c(
                   "carousel",
@@ -1286,14 +1420,14 @@ var render = function () {
                           _c("img", {
                             staticClass: "rounded p-2",
                             attrs: {
-                              src: "asset/img/Rectangle 13064-1.png",
+                              src: "asset/img/characterProfile/s0.png",
                               alt: "carousel",
                             },
                           }),
                           _vm._v(" "),
                           _c("div", { staticClass: "card-body text-center" }, [
                             _c("h5", { staticClass: "card-title  fw-bold" }, [
-                              _vm._v("أحمد عمر هاشم"),
+                              _vm._v("حميد جعفر"),
                             ]),
                             _vm._v(" "),
                             _c(
@@ -1321,14 +1455,14 @@ var render = function () {
                           _c("img", {
                             staticClass: "rounded p-2",
                             attrs: {
-                              src: "asset/img/Rectangle 13064-2.png",
+                              src: "asset/img/characterProfile/s.png",
                               alt: "carousel",
                             },
                           }),
                           _vm._v(" "),
                           _c("div", { staticClass: "card-body text-center" }, [
                             _c("h5", { staticClass: "card-title  fw-bold" }, [
-                              _vm._v("سميح ساويرس"),
+                              _vm._v("رزان خليفة المبارك"),
                             ]),
                             _vm._v(" "),
                             _c(
@@ -1338,77 +1472,7 @@ var render = function () {
                                   "stretched-link text-decoration-none",
                                 attrs: { href: "#" },
                               },
-                              [_vm._v("أخ")]
-                            ),
-                          ]),
-                        ]
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("slide", [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "card ",
-                          staticStyle: { width: "12rem" },
-                        },
-                        [
-                          _c("img", {
-                            staticClass: "rounded p-2",
-                            attrs: {
-                              src: "asset/img/Rectangle 13064-3.png",
-                              alt: "carousel",
-                            },
-                          }),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "card-body text-center" }, [
-                            _c("h5", { staticClass: "card-title  fw-bold" }, [
-                              _vm._v("محمد السلاب"),
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "stretched-link text-decoration-none",
-                                attrs: { href: "#" },
-                              },
-                              [_vm._v("عم")]
-                            ),
-                          ]),
-                        ]
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("slide", [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "card ",
-                          staticStyle: { width: "12rem" },
-                        },
-                        [
-                          _c("img", {
-                            staticClass: "rounded p-2",
-                            attrs: {
-                              src: "asset/img/Rectangle 13064-4.png",
-                              alt: "carousel",
-                            },
-                          }),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "card-body text-center" }, [
-                            _c("h5", { staticClass: "card-title  fw-bold" }, [
-                              _vm._v("محمد السلاب"),
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "stretched-link text-decoration-none",
-                                attrs: { href: "#" },
-                              },
-                              [_vm._v("أب")]
+                              [_vm._v("أخت")]
                             ),
                           ]),
                         ]
@@ -1422,12 +1486,68 @@ var render = function () {
             ),
           ]),
           _vm._v(" "),
-          _vm._m(3),
-          _vm._v(" "),
           _vm._m(4),
+          _vm._v(" "),
+          _c("div", { staticClass: "row" }, [
+            _vm._m(5),
+            _vm._v(" "),
+            _c("div", { staticClass: "container " }, [
+              _c(
+                "div",
+                { staticClass: "row d-flex justify-content-around" },
+                _vm._l(_vm.bestCompanyLastMonth, function (bestCompany, i) {
+                  return _c(
+                    "div",
+                    {
+                      key: i,
+                      staticClass: "col-md-2 col-sm-4 col-xs-2",
+                      attrs: { index: i },
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "card h-100 bg-transparent border-card-company",
+                        },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "bs-img-size d-flex align-items-center justify-content-center",
+                            },
+                            [
+                              _c("img", {
+                                staticClass: "rounded card-img-top p-3",
+                                attrs: { src: bestCompany.src },
+                              }),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "card-body text-end" }, [
+                            _c("h5", { staticClass: "card-title fs-6" }, [
+                              _vm._v(_vm._s(bestCompany.title)),
+                            ]),
+                            _vm._v(" "),
+                            _c("p", { staticClass: "card-text text-warning" }, [
+                              _vm._v(_vm._s(bestCompany.position)),
+                            ]),
+                          ]),
+                        ]
+                      ),
+                    ]
+                  )
+                }),
+                0
+              ),
+            ]),
+          ]),
+          _vm._v(" "),
+          _vm._m(6),
         ]),
         _vm._v(" "),
-        _vm._m(5),
+        _vm._m(7),
       ]),
     ]),
   ])
@@ -1441,7 +1561,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-md-4" }, [
         _c("img", {
           staticClass: "rounded w-75",
-          attrs: { src: "asset/img/Rectangle 13064-3.png", alt: "carousel" },
+          attrs: { src: "asset/img/characterProfile/p.png", alt: "carousel" },
         }),
       ]),
       _vm._v(" "),
@@ -1501,7 +1621,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "row" }, [
-      _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "col-md-12 mt-4" }, [
         _c(
           "div",
           {
@@ -1520,7 +1640,7 @@ var staticRenderFns = [
                   _c(
                     "button",
                     {
-                      staticClass: "accordion-button collapsed",
+                      staticClass: "accordion-button collapsed fw-bold fs-5",
                       attrs: {
                         type: "button",
                         "data-bs-toggle": "collapse",
@@ -1531,7 +1651,7 @@ var staticRenderFns = [
                     },
                     [
                       _vm._v(
-                        "\r\n                    معلومات المؤسسة\r\n                    "
+                        "\r\n                    السيرة الذاتيه لبدر جعفر في العمل والتعليم\r\n                    "
                       ),
                     ]
                   ),
@@ -1541,7 +1661,7 @@ var staticRenderFns = [
               _c(
                 "div",
                 {
-                  staticClass: "accordion-collapse collapse",
+                  staticClass: "accordion-collapse collaps show bg-white",
                   attrs: {
                     id: "flush-collapseOne",
                     "aria-labelledby": "flush-headingOne",
@@ -1550,112 +1670,407 @@ var staticRenderFns = [
                 },
                 [
                   _c("div", { staticClass: "accordion-body" }, [
-                    _c("h3", [_vm._v("الحياه المبكره والتعليم")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\r\n                            ولد بدر جعفر ونشأ في الشارقة، بالإمارات. في عام 1994، واصل تعليمه في كلية إيتون، وتخرج في عام 1999 من جامعة كامبريدج بدرجة الماجستير في الهندسة ودراسات إضافية في الفيزياء الفلكية. في عام 1996، منحت جامعة هارفارد جعفر جائزة هارفارد للكتاب المقدمة للطلاب الذين «أظهروا التميز في المنح الدراسية والشخصية الرفيعة، بالإضافة إلى الإنجازات في المجالات الأخرى». التحق جعفر بعد ذلك بكلية كامبردج جادج للأعمال في جامعة كامبريدج. يعمل جعفر عضوا في المجالس الاستشارية لكلية إدارة الأعمال بجامعة كامبريدج، والجامعة الأمريكية في بيروت، والجامعة الأمريكية في الشارقة. وهو زميل مؤسسي معين في كلية إيتون.\r\n                        "
-                      ),
-                    ]),
-                    _vm._v(" "),
-                    _c("h3", [_vm._v(" ريادة الأعمال ")]),
-                    _vm._v(" "),
-                    _c("p", [
-                      _vm._v(
-                        "\r\n                            بدر جعفر هو رئيس مجلس إدارة إنديفور، وهو عضو في مجلس المستشارين لمركز الشارقة لريادة الأعمال (شراع) وغزة سكاي جيكس، وهي شركة رائدة في تسريع الشركات الناشئة ومركز التعليم التكنولوجي في غزة. في عام 2014، أطلق جعفر برنامج ريادة الأعمال الاجتماعية في العالم العربي بالشراكة مع أشوكا (Ashoka)، وهي منظمة ريادة اجتماعية، لتحديد ومساعدة الشركات الاجتماعية الواعدة في المنطقة. \r\n                        "
-                      ),
+                    _c("div", { staticClass: "row" }, [
+                      _c("div", { staticClass: "col-md-6" }, [
+                        _c("h5", [_vm._v("السيرة الذاتية لبدر جعفر")]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc1.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc2.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc3.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "col-md-6" }, [
+                        _c("h5", [_vm._v("التعليم")]),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc2.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc2.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "card m-auto my-2 text-end  " },
+                          [
+                            _c("div", { staticClass: "row" }, [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "col-md-3 g-0 d-flex align-items-center",
+                                },
+                                [
+                                  _c("img", {
+                                    staticClass: "img-fluid rounded-end p-3",
+                                    attrs: {
+                                      src: "asset/img/companyPage/bc2.png",
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "col-md-9 g-0" }, [
+                                _c("div", { staticClass: "card-body" }, [
+                                  _c("h6", { staticClass: "card-title" }, [
+                                    _vm._v("الرئيس التنفيذي"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "a",
+                                    {
+                                      staticClass: "text-decoration-none ",
+                                      attrs: { href: "#" },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "مجموعة الهلال  \r\n                                    "
+                                      ),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("p", { staticClass: "text-muted pt-2" }, [
+                                    _vm._v(
+                                      "أغسطس 2020 - حتى الأن 1 عام و3 أشهر"
+                                    ),
+                                  ]),
+                                ]),
+                              ]),
+                            ]),
+                          ]
+                        ),
+                      ]),
                     ]),
                   ]),
                 ]
               ),
             ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "accordion-item" }, [
-              _c(
-                "h2",
-                {
-                  staticClass: "accordion-header",
-                  attrs: { id: "flush-headingTwo" },
-                },
-                [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "accordion-button collapsed",
-                      attrs: {
-                        type: "button",
-                        "data-bs-toggle": "collapse",
-                        "data-bs-target": "#flush-collapseTwo",
-                        "aria-expanded": "false",
-                        "aria-controls": "flush-collapseTwo",
-                      },
-                    },
-                    [
-                      _vm._v(
-                        "\r\n                    المبادرات الاجتماعية \r\n                    "
-                      ),
-                    ]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "accordion-collapse collapse",
-                  attrs: {
-                    id: "flush-collapseTwo",
-                    "aria-labelledby": "flush-headingTwo",
-                    "data-bs-parent": "#accordionFlushExample",
-                  },
-                },
-                [_c("div", { staticClass: "accordion-body" })]
-              ),
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "accordion-item" }, [
-              _c(
-                "h2",
-                {
-                  staticClass: "accordion-header",
-                  attrs: { id: "flush-headingThree" },
-                },
-                [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "accordion-button collapsed",
-                      attrs: {
-                        type: "button",
-                        "data-bs-toggle": "collapse",
-                        "data-bs-target": "#flush-collapseThree",
-                        "aria-expanded": "false",
-                        "aria-controls": "flush-collapseThree",
-                      },
-                    },
-                    [
-                      _vm._v(
-                        "\r\n                    معلومات المؤسسة\r\n                    "
-                      ),
-                    ]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "accordion-collapse collapse",
-                  attrs: {
-                    id: "flush-collapseThree",
-                    "aria-labelledby": "flush-headingThree",
-                    "data-bs-parent": "#accordionFlushExample",
-                  },
-                },
-                [_c("div", { staticClass: "accordion-body" })]
-              ),
-            ]),
           ]
+        ),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row" }, [
+      _c("h4", { staticClass: "text-center py-3" }, [
+        _c("a", { staticClass: "btn btn-outline-primary w-40 mx-2" }, [
+          _vm._v("عرض المزيد من التجارب"),
+        ]),
+      ]),
+      _vm._v(" "),
+      _c("h5", { staticClass: "fw-bold my-4" }, [
+        _vm._v("الحياه المبكره والتعليم"),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted fs-5" }, [
+        _vm._v(
+          "\r\n                    ولد بدر جعفر ونشأ في الشارقة، بالإمارات. في عام 1994، واصل تعليمه في كلية إيتون، وتخرج في عام 1999 من جامعة كامبريدج بدرجة الماجستير في الهندسة ودراسات إضافية في الفيزياء الفلكية. في عام 1996، منحت جامعة هارفارد جعفر جائزة هارفارد للكتاب المقدمة للطلاب الذين «أظهروا التميز في المنح الدراسية والشخصية الرفيعة، بالإضافة إلى الإنجازات في المجالات الأخرى». التحق جعفر بعد ذلك بكلية كامبردج جادج للأعمال في جامعة كامبريدج. يعمل جعفر عضوا في المجالس الاستشارية لكلية إدارة الأعمال بجامعة كامبريدج، والجامعة الأمريكية في بيروت، والجامعة الأمريكية في الشارقة. وهو زميل مؤسسي معين في كلية إيتون.\r\n                "
+        ),
+      ]),
+      _vm._v(" "),
+      _c("h5", { staticClass: "fw-bold my-4" }, [_vm._v("ريادة الأعمال ")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-muted fs-5" }, [
+        _vm._v(
+          "\r\nبدر جعفر هو رئيس مجلس إدارة إنديفور، وهو عضو في مجلس المستشارين لمركز الشارقة لريادة الأعمال (شراع) وغزة سكاي جيكس، وهي شركة رائدة في تسريع الشركات الناشئة ومركز التعليم التكنولوجي في غزة. في عام 2014، أطلق جعفر برنامج ريادة الأعمال الاجتماعية في العالم العربي بالشراكة مع أشوكا (Ashoka)، وهي منظمة ريادة اجتماعية، لتحديد ومساعدة الشركات الاجتماعية الواعدة في المنطقة.                 "
         ),
       ]),
     ])
@@ -1668,9 +2083,7 @@ var staticRenderFns = [
       "div",
       { staticClass: "d-flex justify-content-between align-items-center" },
       [
-        _c("h5", { staticClass: "fw-bold my-4" }, [
-          _vm._v("شخصيات وشركات ذات صلة"),
-        ]),
+        _c("h5", { staticClass: "fw-bold my-4" }, [_vm._v("أقرباء بدر جعفر")]),
         _vm._v(" "),
         _c("a", { staticClass: "btn btn btn-outline-primary fs-6 fw-bold" }, [
           _vm._v("عرض المزيد"),
@@ -1700,6 +2113,22 @@ var staticRenderFns = [
         ]
       ),
     ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "d-flex justify-content-between align-items-center" },
+      [
+        _c("h5", { staticClass: "fw-bold my-4" }, [_vm._v("مناصب بدر جعفر")]),
+        _vm._v(" "),
+        _c("a", { staticClass: "btn btn btn-outline-primary fs-6 fw-bold" }, [
+          _vm._v("عرض المزيد"),
+        ]),
+      ]
+    )
   },
   function () {
     var _vm = this
@@ -1794,8 +2223,8 @@ var staticRenderFns = [
         _c("h5", [_vm._v("السيرة الذاتية لبدر جعفر")]),
         _vm._v(" "),
         _c("img", {
-          staticClass: "rounded w-75",
-          attrs: { src: "asset/img/Rectangle 13064-3.png", alt: "carousel" },
+          staticClass: "rounded py-3",
+          attrs: { src: "asset/img/characterProfile/v.png", alt: "carousel" },
         }),
         _vm._v(" "),
         _c("a", { staticClass: "btn btn-primary w-100 mb-2" }, [
@@ -1845,13 +2274,15 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "row" }, [
         _c("div", { staticClass: "col-md-12" }, [
-          _c("h3", { staticClass: "fw-bold" }, [_vm._v("تعرف أيضا")]),
+          _c("h5", { staticClass: "fw-bold" }, [_vm._v("أشخاص ذات صله")]),
           _vm._v(" "),
-          _c("p", [_vm._v("أشخاص من نفس المؤسسه")]),
+          _c("p", { staticClass: "text-muted" }, [
+            _vm._v("شخصيات من محرري من هم"),
+          ]),
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "card w-75  m-auto my-4 text-center shadow " },
+            { staticClass: "card w-75  m-auto my-4 text-end shadow " },
             [
               _c("div", { staticClass: "row" }, [
                 _c(
@@ -1860,25 +2291,25 @@ var staticRenderFns = [
                   [
                     _c("img", {
                       staticClass: "img-fluid rounded-end p-3",
-                      attrs: { src: "asset/img/companyPage/bc.png" },
+                      attrs: { src: "asset/img/Rectangle 13064-3.png" },
                     }),
                   ]
                 ),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-7 g-0" }, [
                   _c("div", { staticClass: "card-body" }, [
-                    _c("h5", { staticClass: "card-title" }, [
-                      _vm._v("شركة سبارك "),
+                    _c("h5", { staticClass: "card-title  pt-3" }, [
+                      _vm._v("محمد السلاب"),
                     ]),
                     _vm._v(" "),
-                    _c("h6", { staticClass: "text-muted py-1" }, [
+                    _c("h6", { staticClass: "text-warning  py-1 fs-6" }, [
                       _vm._v(
-                        "الإمارات العربية المتحدة\r\n                            "
+                        " مجموعة مصطفى السلاب\r\n                            "
                       ),
                     ]),
                     _vm._v(" "),
                     _c("a", { staticClass: "btn btn-primary btn-sm" }, [
-                      _vm._v(" تفاصيل الشركة"),
+                      _vm._v("الملف الشخصي"),
                     ]),
                   ]),
                 ]),
@@ -1888,7 +2319,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "card w-75  m-auto my-4 text-center shadow" },
+            { staticClass: "card w-75  m-auto my-4 text-end shadow " },
             [
               _c("div", { staticClass: "row" }, [
                 _c(
@@ -1897,25 +2328,23 @@ var staticRenderFns = [
                   [
                     _c("img", {
                       staticClass: "img-fluid rounded-end p-3",
-                      attrs: { src: "asset/img/companyPage/bc3.png" },
+                      attrs: { src: "asset/img/Rectangle 13064-6.png" },
                     }),
                   ]
                 ),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-7 g-0" }, [
                   _c("div", { staticClass: "card-body" }, [
-                    _c("h5", { staticClass: "card-title" }, [
-                      _vm._v("شركة سبارك "),
+                    _c("h5", { staticClass: "card-title pt-3" }, [
+                      _vm._v(" محمد صلاح"),
                     ]),
                     _vm._v(" "),
-                    _c("h6", { staticClass: "text-muted py-1" }, [
-                      _vm._v(
-                        "الإمارات العربية المتحدة\r\n                            "
-                      ),
+                    _c("h6", { staticClass: "text-warning  py-1 fs-6" }, [
+                      _vm._v(" لاعب كرة  \r\n                            "),
                     ]),
                     _vm._v(" "),
                     _c("a", { staticClass: "btn btn-primary btn-sm" }, [
-                      _vm._v(" تفاصيل الشركة"),
+                      _vm._v("الملف الشخصي"),
                     ]),
                   ]),
                 ]),
@@ -1925,7 +2354,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "card w-75  m-auto my-4 text-center shadow" },
+            { staticClass: "card w-75  m-auto my-4 text-end shadow " },
             [
               _c("div", { staticClass: "row" }, [
                 _c(
@@ -1934,25 +2363,25 @@ var staticRenderFns = [
                   [
                     _c("img", {
                       staticClass: "img-fluid rounded-end p-3",
-                      attrs: { src: "asset/img/companyPage/bc1.png" },
+                      attrs: { src: "asset/img/Rectangle 13064-5.png" },
                     }),
                   ]
                 ),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-7 g-0" }, [
                   _c("div", { staticClass: "card-body" }, [
-                    _c("h5", { staticClass: "card-title" }, [
-                      _vm._v("شركة سبارك "),
+                    _c("h5", { staticClass: "card-title  pt-3" }, [
+                      _vm._v("محمد السلاب"),
                     ]),
                     _vm._v(" "),
-                    _c("h6", { staticClass: "text-muted py-1" }, [
+                    _c("h6", { staticClass: "text-warning  py-1 fs-6" }, [
                       _vm._v(
-                        "الإمارات العربية المتحدة\r\n                            "
+                        " مجموعة مصطفى السلاب\r\n                            "
                       ),
                     ]),
                     _vm._v(" "),
                     _c("a", { staticClass: "btn btn-primary btn-sm" }, [
-                      _vm._v(" تفاصيل الشركة"),
+                      _vm._v("الملف الشخصي"),
                     ]),
                   ]),
                 ]),
@@ -1962,7 +2391,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "div",
-            { staticClass: "card w-75  m-auto my-4 text-center shadow" },
+            { staticClass: "card w-75  m-auto my-4 text-end shadow " },
             [
               _c("div", { staticClass: "row" }, [
                 _c(
@@ -1971,25 +2400,25 @@ var staticRenderFns = [
                   [
                     _c("img", {
                       staticClass: "img-fluid rounded-end p-3",
-                      attrs: { src: "asset/img/companyPage/bc2.png" },
+                      attrs: { src: "asset/img/Rectangle 13064-4.png" },
                     }),
                   ]
                 ),
                 _vm._v(" "),
                 _c("div", { staticClass: "col-md-7 g-0" }, [
                   _c("div", { staticClass: "card-body" }, [
-                    _c("h5", { staticClass: "card-title" }, [
-                      _vm._v("شركة سبارك "),
+                    _c("h5", { staticClass: "card-title  pt-3" }, [
+                      _vm._v("محمد السلاب"),
                     ]),
                     _vm._v(" "),
-                    _c("h6", { staticClass: "text-muted py-1" }, [
+                    _c("h6", { staticClass: "text-warning  py-1 fs-6" }, [
                       _vm._v(
-                        "الإمارات العربية المتحدة\r\n                            "
+                        " مجموعة مصطفى السلاب\r\n                            "
                       ),
                     ]),
                     _vm._v(" "),
                     _c("a", { staticClass: "btn btn-primary btn-sm" }, [
-                      _vm._v(" تفاصيل الشركة"),
+                      _vm._v("الملف الشخصي"),
                     ]),
                   ]),
                 ]),

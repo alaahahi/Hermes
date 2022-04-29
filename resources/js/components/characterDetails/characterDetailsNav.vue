@@ -20,8 +20,8 @@
         </li>
     </ul>
     <form class="d-flex">
-    <a class="btn btn-defult">أضف شخصية</a>
-      <input class="form-control me-2" type="search" placeholder="اكتب ما تريد البحث عنه" aria-label="Search">
+        <button class="btn btn-outline-primary w-75" type="submit">أضف شخصية</button>
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
     </form>
   </div>
 </nav>
@@ -38,9 +38,6 @@ export default {
 </script>
 <style>
 
-.btn-outline-primary{
-border-radius: 20px;
-}
 .bg-pink {
     background-color: #ffb2bd14;
 }

@@ -11,9 +11,9 @@
     </div>
 </template>
 <script>
-import discover from '../discover.vue'
+import discover from '../home/discover.vue'
 import trend from '../home/trend.vue'
-import companyYouFollow from '../companyYouFollow.vue'
+import companyYouFollow from '../home/companyYouFollow.vue'
 import historicalClassification from '../discover/historicalClassification.vue'
 import investmentCharacters from '../discover/investmentCharacters.vue'
 import selectedCategories from '../discover/selectedCategories.vue'
