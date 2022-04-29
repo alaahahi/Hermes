@@ -38,10 +38,10 @@
                     </ul>
                     </li>
                     <li class="nav-item py-lg-3 ">
-                    <button class="btn btn-light text-black-50 fw-bold " href="#">الدخول</button>
+                    <router-link class="btn btn-light text-black-50 fw-bold " to="/login">الدخول</router-link>
                     </li>
                     <li class="nav-item py-lg-3">
-                    <router-link class="btn btn-primary" to="/home">إنشاء حساب</router-link>
+                    <router-link class="btn btn-primary" to="/register">إنشاء حساب</router-link>
                     </li>
                 </ul>
                 </div>

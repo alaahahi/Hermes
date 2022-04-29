@@ -5585,15 +5585,32 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 vue__WEBPACK_IMPORTED_MODULE_1__["default"].use(vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
-  mode: 'history',
-  scrollBehavior: function scrollBehavior(to, from, savedPosition) {
-    return {
-      y: 0
-    };
-  },
+var router = new vue_router__WEBPACK_IMPORTED_MODULE_2__["default"]({
+  mode: "history",
   routes: _toConsumableArray(_routes_home__WEBPACK_IMPORTED_MODULE_0__["default"])
-}));
+});
+router.beforeEach(function (to, from, next) {
+  if (to.matched.some(function (record) {
+    return record.meta.requiresAuth;
+  })) {
+    if (!localStorage.getItem("isLoggedIn")) {
+      router.push("/login");
+    } else {
+      next();
+    }
+  } else if (to.matched.some(function (record) {
+    return record.meta.guest;
+  })) {
+    if (localStorage.getItem("isLoggedIn")) {
+      next("/dashboard");
+    } else {
+      next();
+    }
+  } else {
+    next();
+  }
+});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (router);
 
 /***/ }),
 
@@ -5612,6 +5629,10 @@ var homePage = function homePage() {
   return __webpack_require__.e(/*! import() */ "resources_js_components_pages_homePage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/homePage.vue */ "./resources/js/components/pages/homePage.vue"));
 };
 
+var login = function login() {
+  return __webpack_require__.e(/*! import() */ "resources_js_components_pages_auth_login_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/auth/login.vue */ "./resources/js/components/pages/auth/login.vue"));
+};
+
 var companyPage = function companyPage() {
   return __webpack_require__.e(/*! import() */ "resources_js_components_pages_companyPage_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/companyPage.vue */ "./resources/js/components/pages/companyPage.vue"));
 };
@@ -5628,26 +5649,76 @@ var characterProfile = function characterProfile() {
   return __webpack_require__.e(/*! import() */ "resources_js_components_pages_characterProfile_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/characterProfile.vue */ "./resources/js/components/pages/characterProfile.vue"));
 };
 
+var Public = function Public() {
+  return __webpack_require__.e(/*! import() */ "resources_js_components_layouts_public_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/layouts/public.vue */ "./resources/js/components/layouts/public.vue"));
+};
+
+var Protected = function Protected() {
+  return __webpack_require__.e(/*! import() */ "resources_js_components_layouts_protected_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/layouts/protected.vue */ "./resources/js/components/layouts/protected.vue"));
+};
+
+var register = function register() {
+  return __webpack_require__.e(/*! import() */ "resources_js_components_pages_auth_register_vue").then(__webpack_require__.bind(__webpack_require__, /*! ../components/pages/auth/register.vue */ "./resources/js/components/pages/auth/register.vue"));
+};
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{
-  path: '/home',
-  component: homePage,
-  name: 'home'
+  path: "/auth",
+  component: Public,
+  children: [{
+    path: "/register",
+    component: register
+  }, {
+    path: "/Login",
+    component: login
+  }]
 }, {
-  path: '/discover',
-  component: discoverPage,
-  name: 'discover'
-}, {
-  path: '/company',
-  component: companyPage,
-  name: 'company'
-}, {
-  path: '/companyDetail',
-  component: companyDetailsPage,
-  name: 'companyDetail'
-}, {
-  path: '/characterProfile',
-  component: characterProfile,
-  name: 'characterProfile'
+  path: "/",
+  component: Protected,
+  children: [{
+    path: '/',
+    component: homePage,
+    name: 'home',
+    meta: {
+      guest: true //requiresAuth: true
+
+    }
+  }, {
+    path: '/home',
+    component: homePage,
+    name: 'home',
+    meta: {
+      guest: true //requiresAuth: true
+
+    }
+  }, {
+    path: '/discover',
+    component: discoverPage,
+    name: 'discover',
+    meta: {
+      guest: true
+    }
+  }, {
+    path: '/company',
+    component: companyPage,
+    name: 'company',
+    meta: {
+      guest: true
+    }
+  }, {
+    path: '/companyDetail',
+    component: companyDetailsPage,
+    name: 'companyDetail',
+    meta: {
+      guest: true
+    }
+  }, {
+    path: '/characterProfile',
+    component: characterProfile,
+    name: 'characterProfile',
+    meta: {
+      guest: true
+    }
+  }]
 }]);
 
 /***/ }),
@@ -28897,7 +28968,22 @@ var render = function () {
                         1
                       ),
                       _vm._v(" "),
-                      _vm._m(1),
+                      _c(
+                        "li",
+                        { staticClass: "nav-item py-lg-3 " },
+                        [
+                          _c(
+                            "router-link",
+                            {
+                              staticClass:
+                                "btn btn-light text-black-50 fw-bold ",
+                              attrs: { to: "/login" },
+                            },
+                            [_vm._v("الدخول")]
+                          ),
+                        ],
+                        1
+                      ),
                       _vm._v(" "),
                       _c(
                         "li",
@@ -28907,7 +28993,7 @@ var render = function () {
                             "router-link",
                             {
                               staticClass: "btn btn-primary",
-                              attrs: { to: "/home" },
+                              attrs: { to: "/register" },
                             },
                             [_vm._v("إنشاء حساب")]
                           ),
@@ -28943,21 +29029,6 @@ var staticRenderFns = [
       },
       [_c("span", { staticClass: "navbar-toggler-icon" })]
     )
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item py-lg-3 " }, [
-      _c(
-        "button",
-        {
-          staticClass: "btn btn-light text-black-50 fw-bold ",
-          attrs: { href: "#" },
-        },
-        [_vm._v("الدخول")]
-      ),
-    ])
   },
 ]
 render._withStripped = true
@@ -44408,7 +44479,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_components_pages_homePage_vue":1,"resources_js_components_pages_companyPage_vue":1,"resources_js_components_pages_discoverPage_vue":1,"resources_js_components_pages_companyDetailsPage_vue":1,"resources_js_components_pages_characterProfile_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_components_pages_homePage_vue":1,"resources_js_components_pages_auth_login_vue":1,"resources_js_components_pages_companyPage_vue":1,"resources_js_components_pages_discoverPage_vue":1,"resources_js_components_pages_companyDetailsPage_vue":1,"resources_js_components_pages_characterProfile_vue":1,"resources_js_components_layouts_public_vue":1,"resources_js_components_layouts_protected_vue":1,"resources_js_components_pages_auth_register_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};
