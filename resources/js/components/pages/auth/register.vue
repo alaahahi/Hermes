@@ -1,8 +1,8 @@
 <template>
-<div class="h-100">
-  <div class="container-fluid h-100">
-    <div class="row h-100">
-        <div class="col-md-6 bg-white h-100">
+<div>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 bg-white">
           <div class="row flex-row-reverse mt-3 mb-5">
             <div class="col-md-8 text-end "><img class="logo-manhom"  src="asset/img/logo.png" alt="logo ManHOM"></div>
           </div>
@@ -77,7 +77,7 @@
                 </div>
               </div>
               <a class="btn btn-primary w-75 mt-4">  تسجيل الدخول</a>
-              <h6 class="text-center  w-75 mt-4">
+              <h6 class="text-center  w-75 my-4">
                  لديك حساب؟
                 <b>
                  <router-link  to="/login">تسجيل الدخول</router-link>
@@ -87,10 +87,11 @@
           </div>
         </div>
         <div class="col-md-6 m-auto">
+          <div class="container">
           <h2 class="my-5 text-center">
             مميزات واضافات غير محدوده 
           </h2>
-                              <carousel 
+          <carousel 
                       :navigation-enabled="true"
             navigation-next-label="<i class='fa-regular fa-circle-right fa-lg	text-primary'></i>"
             navigation-prev-label="<i class='fa-regular fa-circle-left fa-lg	text-primary'></i>"
@@ -129,6 +130,7 @@
                 </div>
                 </slide>
                 </carousel>
+          </div>
         </div>
     </div>
   </div>
@@ -156,15 +158,6 @@ export default {
   }
 };
 </script>
-<style>
-html,body
-{
-  height: 100% !important;
-}
-#app{
-  height: 100%;
-}
-</style>
 
 <style scoped>
 h1 {

@@ -1,8 +1,8 @@
 <template>
-<div class="h-100">
-  <div class="container-fluid h-100">
-    <div class="row h-100">
-        <div class="col-md-6 bg-white h-100">
+<div>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 bg-white">
           <div class="row flex-row-reverse mt-3 mb-5">
             <div class="col-md-8 text-end "><img class="logo-manhom"  src="asset/img/logo.png" alt="logo ManHOM"></div>
           </div>
@@ -28,13 +28,13 @@
                 <label for="password" class="form-label bg-white">كلمة المرور </label>
                 <div class="position-relative w-75">
                 <input :type="passwordFieldType" v-model="password" class="form-control">
-                <i  @click="switchVisibility" class="fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
+                <i  @click="switchVisibility" class="fa-regular {{passwordFieldIcon}} position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
                 </div>
               </div>
               
               <h6 class="text-start w-75 mt-2">نسيت كلمة المرور؟</h6>
               <a class="btn btn-primary w-75">  تسجيل الدخول</a>
-              <h6 class="text-center  w-75 mt-3">
+              <h6 class="text-center  w-75 my-4">
                 ليس لديك حساب؟
                 <b>
                  <router-link  to="/register"> إنشاء حساب جديد</router-link>
@@ -44,10 +44,11 @@
           </div>
         </div>
         <div class="col-md-6 m-auto">
+          <div class="container">
           <h2 class="my-5 text-center">
             مميزات واضافات غير محدوده 
           </h2>
-                              <carousel 
+         <carousel 
                       :navigation-enabled="true"
             navigation-next-label="<i class='fa-regular fa-circle-right fa-lg	text-primary'></i>"
             navigation-prev-label="<i class='fa-regular fa-circle-left fa-lg	text-primary'></i>"
@@ -86,6 +87,7 @@
                 </div>
                 </slide>
                 </carousel>
+                </div>
         </div>
     </div>
   </div>
@@ -103,26 +105,18 @@ export default {
     data() {
    return {
       password: "",
-      passwordFieldType: "password"
+      passwordFieldType: "password",
+      passwordFieldIcon:"fa-eye"
     };
     },
     methods:{
     switchVisibility() {
       this.passwordFieldType = this.passwordFieldType === "password" ? "text" : "password";
+      this.passwordFieldIcon = this.passwordFieldType === "password" ? "text" : "password";
     }
   }
 };
 </script>
-<style>
-html,body
-{
-  height: 100% !important;
-}
-#app{
-  height: 100%;
-}
-</style>
-
 <style scoped>
 h1 {
   overflow: hidden;
