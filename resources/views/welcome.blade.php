@@ -6,6 +6,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Mohamad Hahi Heimatring 38 96450 Coburg</title>
+    <!-- <title>Khaled Almaleeh Kürengrund 24</title> -->
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <!-- Fonts -->
