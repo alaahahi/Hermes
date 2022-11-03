@@ -1,8 +1,9 @@
 <template>
 <div>
-        <headers/>
+        <!--<headers/>-->
+        .
           <router-view></router-view>
-        <footers/>
+        <!--<footers/>-->
         
 </div>
 </template>

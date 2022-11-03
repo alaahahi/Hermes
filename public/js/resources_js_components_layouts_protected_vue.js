@@ -21,6 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -118,7 +119,7 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [_c("headers"), _vm._v(" "), _c("router-view"), _vm._v(" "), _c("footers")],
+    [_vm._v("\r\n        .\r\n          "), _c("router-view")],
     1
   )
 }

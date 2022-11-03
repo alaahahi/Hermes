@@ -124,7 +124,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     switchVisibility: function switchVisibility() {
       this.passwordFieldType = this.passwordFieldType === "password" ? "text" : "password";
-      this.passwordFieldIcon = this.passwordFieldType === "password" ? "text" : "password";
+      this.passwordFieldIcon = this.passwordFieldType === "password" ? "fa-eye" : "fa-eye-slash";
     }
   }
 });
@@ -654,8 +654,395 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render),
 /* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
 /* harmony export */ });
-var render = function () {}
-var staticRenderFns = []
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "container-fluid" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-6 bg-white" }, [
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c("div", { staticClass: "row  flex-row-reverse" }, [
+            _c("div", { staticClass: "col-md-8 text-end" }, [
+              _vm._m(3),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _vm._m(4),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _vm._m(5),
+              _vm._v(" "),
+              _c("h1", { staticClass: "fs-6 text-muted my-2 py-2 w-75" }, [
+                _vm._v("أو"),
+              ]),
+              _vm._v(" "),
+              _vm._m(6),
+              _vm._v(" "),
+              _c("div", { staticClass: "mb-3 " }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "form-label bg-white",
+                    attrs: { for: "password" },
+                  },
+                  [_vm._v("كلمة المرور ")]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "position-relative w-75" }, [
+                  _vm.passwordFieldType === "checkbox"
+                    ? _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.password,
+                            expression: "password",
+                          },
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "checkbox" },
+                        domProps: {
+                          checked: Array.isArray(_vm.password)
+                            ? _vm._i(_vm.password, null) > -1
+                            : _vm.password,
+                        },
+                        on: {
+                          change: function ($event) {
+                            var $$a = _vm.password,
+                              $$el = $event.target,
+                              $$c = $$el.checked ? true : false
+                            if (Array.isArray($$a)) {
+                              var $$v = null,
+                                $$i = _vm._i($$a, $$v)
+                              if ($$el.checked) {
+                                $$i < 0 && (_vm.password = $$a.concat([$$v]))
+                              } else {
+                                $$i > -1 &&
+                                  (_vm.password = $$a
+                                    .slice(0, $$i)
+                                    .concat($$a.slice($$i + 1)))
+                              }
+                            } else {
+                              _vm.password = $$c
+                            }
+                          },
+                        },
+                      })
+                    : _vm.passwordFieldType === "radio"
+                    ? _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.password,
+                            expression: "password",
+                          },
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: "radio" },
+                        domProps: { checked: _vm._q(_vm.password, null) },
+                        on: {
+                          change: function ($event) {
+                            _vm.password = null
+                          },
+                        },
+                      })
+                    : _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.password,
+                            expression: "password",
+                          },
+                        ],
+                        staticClass: "form-control",
+                        attrs: { type: _vm.passwordFieldType },
+                        domProps: { value: _vm.password },
+                        on: {
+                          input: function ($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.password = $event.target.value
+                          },
+                        },
+                      }),
+                  _vm._v(" "),
+                  _c("i", {
+                    staticClass:
+                      "fa-regular position-absolute top-50 start-0-c translate-middle-y text-muted",
+                    class: _vm.passwordFieldIcon,
+                    on: {
+                      click: function ($event) {
+                        if (
+                          !$event.type.indexOf("key") &&
+                          _vm._k($event.keyCode, "left", 37, $event.key, [
+                            "Left",
+                            "ArrowLeft",
+                          ])
+                        ) {
+                          return null
+                        }
+                        if ("button" in $event && $event.button !== 0) {
+                          return null
+                        }
+                        return _vm.switchVisibility.apply(null, arguments)
+                      },
+                    },
+                  }),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("h6", { staticClass: "text-start w-75 mt-2" }, [
+                _vm._v("نسيت كلمة المرور؟"),
+              ]),
+              _vm._v(" "),
+              _c("a", { staticClass: "btn btn-primary w-75" }, [
+                _vm._v("  تسجيل الدخول"),
+              ]),
+              _vm._v(" "),
+              _c("h6", { staticClass: "text-center  w-75 my-4" }, [
+                _vm._v(
+                  "\r\n                ليس لديك حساب؟\r\n                "
+                ),
+                _c(
+                  "b",
+                  [
+                    _c("router-link", { attrs: { to: "/register" } }, [
+                      _vm._v(" إنشاء حساب جديد"),
+                    ]),
+                  ],
+                  1
+                ),
+              ]),
+            ]),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 m-auto" }, [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c("h2", { staticClass: "my-5 text-center" }, [
+                _vm._v(
+                  "\r\n            مميزات واضافات غير محدوده \r\n          "
+                ),
+              ]),
+              _vm._v(" "),
+              _c(
+                "carousel",
+                {
+                  attrs: {
+                    "navigation-enabled": true,
+                    "navigation-next-label":
+                      "<i class='fa-regular fa-circle-right fa-lg\ttext-primary'></i>",
+                    "navigation-prev-label":
+                      "<i class='fa-regular fa-circle-left fa-lg\ttext-primary'></i>",
+                    "auto-play-timeout": 6000,
+                    autoplay: true,
+                    loop: true,
+                    "pagination-enabled": false,
+                    "per-page-custom": [
+                      [768, 2],
+                      [1024, 3],
+                    ],
+                  },
+                },
+                [
+                  _c("slide", [
+                    _c("div", { staticClass: "card m-1 " }, [
+                      _c("div", { staticClass: "p-5 text-center" }, [
+                        _c("i", {
+                          staticClass:
+                            "fa-regular fa-circle-check fa-2xl text-success",
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body text-center" }, [
+                        _c("h5", { staticClass: "card-title  fw-bold" }, [
+                          _vm._v("تصحيح المعلومات"),
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "text-muted text-decoration-none",
+                            attrs: { href: "#" },
+                          },
+                          [
+                            _vm._v(
+                              "فريق التحرير حريص علي مراجعة اي معلومه قد تكون مغلوطه او منقوصه"
+                            ),
+                          ]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("slide", [
+                    _c("div", { staticClass: "card m-1 " }, [
+                      _c("div", { staticClass: "p-5 text-center" }, [
+                        _c("i", {
+                          staticClass:
+                            "fa-solid fa-circle-nodes fa-2xl text-warning",
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body text-center" }, [
+                        _c("h5", { staticClass: "card-title  fw-bold" }, [
+                          _vm._v("تقارير الزوار"),
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "text-muted text-decoration-none",
+                            attrs: { href: "#" },
+                          },
+                          [
+                            _vm._v(
+                              "يتم ربط صفحتك بالبريد الإلكتروني لتصلك بإستمرار تقارير عن عدد زوار صفحتك"
+                            ),
+                          ]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                  _vm._v(" "),
+                  _c("slide", [
+                    _c("div", { staticClass: "card m-1 " }, [
+                      _c("div", { staticClass: "p-5 text-center" }, [
+                        _c("i", {
+                          staticClass:
+                            "fa-solid fa-circle-check fa-2xl text-success",
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body text-center" }, [
+                        _c("h5", { staticClass: "card-title  fw-bold" }, [
+                          _vm._v("تصحيح المعلومات"),
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "text-muted text-decoration-none",
+                            attrs: { href: "#" },
+                          },
+                          [
+                            _vm._v(
+                              "فريق التحرير حريص علي مراجعة اي معلومه قد تكون مغلوطه او منقوصه"
+                            ),
+                          ]
+                        ),
+                      ]),
+                    ]),
+                  ]),
+                ],
+                1
+              ),
+            ],
+            1
+          ),
+        ]),
+      ]),
+    ]),
+  ])
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row flex-row-reverse mt-3 mb-5" }, [
+      _c("div", { staticClass: "col-md-8 text-end " }, [
+        _c("img", {
+          staticClass: "logo-manhom",
+          attrs: { src: "asset/img/logo.png", alt: "logo ManHOM" },
+        }),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row  flex-row-reverse my-3" }, [
+      _c("div", { staticClass: "col-md-8 text-end" }, [
+        _c("h2", [_vm._v("تسجيل الدخول")]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "row  flex-row-reverse mb-4" }, [
+      _c("div", { staticClass: "col-md-8 text-end" }, [
+        _c("h6", { staticClass: "text-muted " }, [
+          _vm._v("ادخل المعلومات ادناه حتي تتمكن من الدخول لحسابك"),
+        ]),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "btn btn-light w-75" }, [
+      _c("i", { staticClass: "fa-brands fa-google text-danger float-end m-1" }),
+      _vm._v("المتابعه بإستخدام Google"),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "btn btn-info w-75 my-4 text-white" }, [
+      _c("i", { staticClass: "fa-brands fa-twitter text-white float-end m-1" }),
+      _vm._v(" المتابعه بإستخدام Twitter "),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("a", { staticClass: "btn btn-primary w-75" }, [
+      _c("i", {
+        staticClass: "fa-brands fa-facebook text-white float-end m-1",
+      }),
+      _vm._v("المتابعه بإستخدام Facebook"),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mb-3" }, [
+      _c(
+        "label",
+        { staticClass: "form-labe bg-whitel", attrs: { for: "email" } },
+        [_vm._v("البريد الإلكتروني")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "form-control w-75",
+        attrs: { type: "email", id: "email", placeholder: "ahmad@gmail.com" },
+      }),
+    ])
+  },
+]
+render._withStripped = true
 
 
 

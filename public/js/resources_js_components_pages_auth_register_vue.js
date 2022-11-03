@@ -160,12 +160,14 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       password: "",
-      passwordFieldType: "password"
+      passwordFieldType: "password",
+      passwordFieldIcon: "fa-eye"
     };
   },
   methods: {
     switchVisibility: function switchVisibility() {
       this.passwordFieldType = this.passwordFieldType === "password" ? "text" : "password";
+      this.passwordFieldIcon = this.passwordFieldType === "password" ? "fa-eye" : "fa-eye-slash";
     }
   }
 });
@@ -825,6 +827,7 @@ var render = function () {
                     _c("i", {
                       staticClass:
                         "fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted",
+                      class: _vm.passwordFieldIcon,
                       on: { click: _vm.switchVisibility },
                     }),
                   ]),
@@ -921,6 +924,7 @@ var render = function () {
                     _c("i", {
                       staticClass:
                         "fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted",
+                      class: _vm.passwordFieldIcon,
                       on: { click: _vm.switchVisibility },
                     }),
                   ]),

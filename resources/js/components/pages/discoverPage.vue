@@ -12,7 +12,7 @@
 </template>
 <script>
 import discover from '../home/discover.vue'
-import trend from '../home/trend.vue'
+import trend from '../home/cal.vue'
 import companyYouFollow from '../home/companyYouFollow.vue'
 import historicalClassification from '../discover/historicalClassification.vue'
 import investmentCharacters from '../discover/investmentCharacters.vue'

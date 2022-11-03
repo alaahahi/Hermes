@@ -27,8 +27,8 @@
               <div class="mb-3 ">
                 <label for="password" class="form-label bg-white">كلمة المرور </label>
                 <div class="position-relative w-75">
-                <input :type="passwordFieldType" v-model="password" class="form-control">
-                <i  @click="switchVisibility" class="fa-regular {{passwordFieldIcon}} position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
+                <input :type="passwordFieldType" v-model="password" class="form-control" >
+                <i  @click.left="switchVisibility"  :class="passwordFieldIcon" class="fa-regular position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
                 </div>
               </div>
               
@@ -112,7 +112,7 @@ export default {
     methods:{
     switchVisibility() {
       this.passwordFieldType = this.passwordFieldType === "password" ? "text" : "password";
-      this.passwordFieldIcon = this.passwordFieldType === "password" ? "text" : "password";
+      this.passwordFieldIcon = this.passwordFieldType === "password" ? "fa-eye" : "fa-eye-slash";
     }
   }
 };

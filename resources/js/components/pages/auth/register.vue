@@ -65,14 +65,14 @@
                   <label for="password" class="form-label">كلمة المرور </label>
                   <div class="position-relative w-75">
                   <input :type="passwordFieldType" v-model="password" class="form-control bg-white">
-                  <i  @click="switchVisibility" class="fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
+                  <i  @click="switchVisibility" :class="passwordFieldIcon" class="fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
                   </div>
                 </div>
                 <div class="col-md-6 ">
                   <label for="password" class="form-label">تأكيد كلمة المرور</label>
                   <div class="position-relative w-75">
                   <input :type="passwordFieldType" v-model="password" class="form-control bg-white">
-                  <i  @click="switchVisibility" class="fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
+                  <i  @click="switchVisibility" :class="passwordFieldIcon" class="fa-regular fa-eye position-absolute top-50 start-0-c translate-middle-y text-muted"></i>
                   </div>
                 </div>
               </div>
@@ -148,12 +148,15 @@ export default {
     data() {
    return {
       password: "",
-      passwordFieldType: "password"
+      passwordFieldType: "password",
+      passwordFieldIcon:"fa-eye"
     };
     },
     methods:{
     switchVisibility() {
       this.passwordFieldType = this.passwordFieldType === "password" ? "text" : "password";
+      this.passwordFieldIcon = this.passwordFieldType === "password" ? "fa-eye" : "fa-eye-slash";
+
     }
   }
 };
