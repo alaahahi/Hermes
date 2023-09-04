@@ -5601,12 +5601,6 @@ router.beforeEach(function (to, from, next) {
   } else if (to.matched.some(function (record) {
     return record.meta.guest;
   })) {
-    if (localStorage.getItem("isLoggedIn")) {
-      next("/dashboard");
-    } else {
-      next();
-    }
-  } else {
     next();
   }
 });

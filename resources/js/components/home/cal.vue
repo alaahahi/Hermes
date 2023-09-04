@@ -170,6 +170,11 @@ export default {
                     price:"1.4"
                 },
                 {
+                    name:"166",
+                    number:0,
+                    price:"1.67"
+                },
+                {
                     name:"167",
                     number:0,
                     price:"0.2"

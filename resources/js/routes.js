@@ -17,13 +17,7 @@ router.beforeEach((to, from, next) => {
             next();
         }
     } else if (to.matched.some(record => record.meta.guest)) {
-        if (localStorage.getItem("isLoggedIn")) {
-            next("/dashboard");
-        } else {
             next();
-        }
-    } else {
-        next();
     }
 });
 export default router;
