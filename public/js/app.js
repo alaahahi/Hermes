@@ -5677,14 +5677,6 @@ var register = function register() {
 
     }
   }, {
-    path: '/home',
-    component: homePage,
-    name: 'home',
-    meta: {
-      guest: true //requiresAuth: true
-
-    }
-  }, {
     path: '/discover',
     component: discoverPage,
     name: 'discover',

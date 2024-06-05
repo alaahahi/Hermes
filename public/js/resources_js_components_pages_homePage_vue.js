@@ -43,11 +43,11 @@ __webpack_require__.r(__webpack_exports__);
       boxs: [{
         name: "100",
         number: 0,
-        price: "1.68"
+        price: "1.72"
       }, {
         name: "101",
         number: 0,
-        price: "1.68"
+        price: "1.72"
       }, {
         name: "102",
         number: 0,
@@ -71,7 +71,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         name: "110",
         number: 0,
-        price: "1.58"
+        price: "1.72"
       }, {
         name: "111",
         number: 0,
@@ -95,7 +95,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         name: "118",
         number: 0,
-        price: "1.68"
+        price: "1.72"
       }, {
         name: "119",
         number: 0,
@@ -179,7 +179,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         name: "0",
         number: 0,
-        price: "1.68"
+        price: "1.72"
       }]
     };
   },

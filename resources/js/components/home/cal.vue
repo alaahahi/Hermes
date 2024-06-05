@@ -32,12 +32,12 @@ export default {
                 {
                     name:"100",
                     number:0,
-                    price:"1.68"
+                    price:"1.72"
                 },
                 {
                     name:"101",
                     number:0,
-                    price:"1.68"
+                    price:"1.72"
                 },
                 {
                     name:"102",
@@ -67,7 +67,7 @@ export default {
                 {
                     name:"110",
                     number:0,
-                    price:"1.58"
+                    price:"1.72"
                 },
                 {
                     name:"111",
@@ -97,7 +97,7 @@ export default {
                 {
                     name:"118",
                     number:0,
-                    price:"1.68"
+                    price:"1.72"
                 },
                 {
                     name:"119",
@@ -202,7 +202,7 @@ export default {
                 {
                     name:"0",
                     number:0,
-                    price:"1.68"
+                    price:"1.72"
                 },
                 ],
                         }
